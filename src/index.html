@@ -1,37 +1,51 @@
 <!doctype html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./assets/css/output.css" rel="stylesheet">
-</head>
-<body>
-  <div id="header"></div>
-  
-</body>
-<script>
-fetch('./components/header.html')
-  .then(res => res.text())
-  .then(data => {
-    document.getElementById('header').innerHTML = data;
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./assets/css/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="header"></div>
 
-    const btn = document.getElementById('menu-btn');
-    const menu = document.getElementById('mobile-menu');
+    <div id="presentation">
+      <div class="max-w-6xl mx-auto px-6 py-12">
+        <h2 class="text-2xl font-bold mt-5 mb-4 text-center">Bienvenue</h2>
+        <p class="text-gray-700 text-center text-lg mb-4">
+          Je suis Francesco Armiento, un sound designer, compositeur et
+          ingénieur du son passionné. <br />
+          Découvrez mes projets, mes compétences et n'hésitez pas à me contacter
+          pour toute collaboration.
+        </p>
+        <!-- Image de présentation -->
+        <div id="photoPresentation" class="max-w-sm mx-auto aspect-[4/3] overflow-hidden mb-6">
+          <img src="./assets/images/test-photo-presentation.jpg" alt="Photo de présentation" class="w-full h-full object-cover rounded-lg" />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    fetch("./components/header.html")
+      .then((res) => res.text())
+      .then((data) => {
+        document.getElementById("header").innerHTML = data;
 
-    if (btn && menu) {
-      btn.addEventListener('click', () => {
-        menu.classList.toggle('hidden');
-        
+        const btn = document.getElementById("menu-btn");
+        const menu = document.getElementById("mobile-menu");
+
+        if (btn && menu) {
+          btn.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+          });
+        }
       });
-    }
-});
 
-fetch('./components/footer.html')
-  .then(res => res.text())
-  .then(data => {
-    const footer = document.createElement('div');
-    footer.innerHTML = data;
-    document.body.appendChild(footer);
-});
-</script>
+    fetch("./components/footer.html")
+      .then((res) => res.text())
+      .then((data) => {
+        const footer = document.createElement("div");
+        footer.innerHTML = data;
+        document.body.appendChild(footer);
+      });
+  </script>
 </html>
