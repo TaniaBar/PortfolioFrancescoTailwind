@@ -11,26 +11,48 @@
     
     <!-- Logo  -->
     <div class="text-xl font-semibold tracking-wide">
+      <a href="./index.html" class="text-gray-800 hover:text-gray-600 transition">
       Francesco
+      </a>
     </div>
 
-    <!-- Menu -->
-    <nav class="flex items-center gap-8 text-sm font-medium">
-      <a href="/index.html" class="hover:text-gray-500 transition">
-        Accueil
-      </a>
-      <a href="/portfolio.html" class="hover:text-gray-500 transition">
-        Portfolio
-      </a>
-      <a href="/about.html" class="hover:text-gray-500 transition">
-        À propos
-      </a>
-      <a href="#" class="hover:text-gray-500 transition">
-        Contact
-      </a>
+    <!-- Burger Menu -->
+      <button id="menu-btn" class="text-gray-800 hover:text-gray-600 transition md:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
+
+    <!-- Desktop Menu -->
+    <nav class="hidden md:flex gap-8 text-sm font-medium">
+      <a href="./index.html" class="hover:text-gray-500">Accueil</a>
+      <a href="./portfolio.html" class="hover:text-gray-500">Portfolio</a>
+      <a href="./about.html" class="hover:text-gray-500">À propos</a>
+      <a href="./contact.html" class="hover:text-gray-500">Contact</a>
     </nav>
 
   </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden flex flex-col px-6 pb-4 md:hidden">
+    <a href="./index.html" class="py-2 hover:text-gray-500 text-right">Accueil</a>
+    <a href="./portfolio.html" class="py-2 hover:text-gray-500 text-right">Portfolio</a>
+    <a href="./about.html" class="py-2 hover:text-gray-500 text-right">À propos</a>
+    <a href="./contact.html" class="py-2 hover:text-gray-500 text-right">Contact</a>
+  </div>
+
+  <div class="flex flex-col items-center">
+    <div class="w-1/2">
+      <h1 class="text-3xl font-bold text-center uppercase tracking-wide">
+        Francesco Armiento
+      </h1>
+    </div>
+    <div class="w-1/2">
+      <p class="text-gray-600 mt-4 text-center text-xl">
+        Sound Designer | Compositeur | Ingénieur du son
+      </p>
+    </div>
+ 
 </header>
 </body>
 </html>
