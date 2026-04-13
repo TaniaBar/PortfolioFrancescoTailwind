@@ -9,10 +9,10 @@
       "Courier New", monospace;
     --color-sky-800: oklch(44.3% 0.11 240.79);
     --color-sky-950: oklch(29.3% 0.066 243.157);
-    --color-blue-600: oklch(54.6% 0.245 262.881);
+    --color-blue-500: oklch(62.3% 0.214 259.815);
+    --color-blue-800: oklch(42.4% 0.199 265.638);
     --color-gray-200: oklch(92.8% 0.006 264.531);
     --color-gray-300: oklch(87.2% 0.01 258.338);
-    --color-gray-500: oklch(55.1% 0.027 264.364);
     --color-gray-600: oklch(44.6% 0.03 256.802);
     --color-gray-700: oklch(37.3% 0.034 259.733);
     --color-gray-800: oklch(27.8% 0.033 256.848);
@@ -438,17 +438,17 @@
       }
     }
   }
+  .hover\:text-blue-800 {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-blue-800);
+      }
+    }
+  }
   .hover\:text-gray-300 {
     &:hover {
       @media (hover: hover) {
         color: var(--color-gray-300);
-      }
-    }
-  }
-  .hover\:text-gray-500 {
-    &:hover {
-      @media (hover: hover) {
-        color: var(--color-gray-500);
       }
     }
   }
@@ -496,7 +496,7 @@
 .active-link {
   --tw-font-weight: var(--font-weight-semibold);
   font-weight: var(--font-weight-semibold);
-  color: var(--color-blue-600);
+  color: var(--color-blue-500);
 }
 @property --tw-border-style {
   syntax: "*";
