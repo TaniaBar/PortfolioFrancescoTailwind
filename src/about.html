@@ -3,11 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
+  <link href="./assets/css/output.css" rel="stylesheet" />
 </head>
 <body>
+  <div id="header"></div>
   <h1 class="text-3xl font-bold underline">
     Hello about!!
   </h1>
 </body>
+<script>
+    fetch("./components/header.html")
+      .then((res) => res.text())
+      .then((data) => {
+        document.getElementById("header").innerHTML = data;
+
+        const btn = document.getElementById("menu-btn");
+        const menu = document.getElementById("mobile-menu");
+
+        if (btn && menu) {
+          btn.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+          });
+        }
+
+        // Active link logic
+        const currentPath = window.location.pathname.split("/").pop();
+        console.log("Current path:", currentPath);
+
+        const navLinks = document.querySelectorAll("nav a");
+
+        navLinks.forEach((link) => {
+          const linkPath = link.getAttribute("href").split("/").pop();
+          console.log(
+            "Link path:",
+            linkPath,
+            "matches:",
+            linkPath === currentPath,
+          );
+
+          if (linkPath === currentPath) {
+            link.classList.add("active-link");
+          }
+        });
+      });
+
+    fetch("./components/footer.html")
+      .then((res) => res.text())
+      .then((data) => {
+        const footer = document.createElement("div");
+        footer.innerHTML = data;
+        document.body.appendChild(footer);
+      });
+  </script>
 </html>
