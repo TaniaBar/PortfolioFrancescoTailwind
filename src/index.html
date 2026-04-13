@@ -20,8 +20,15 @@
           pour toute collaboration.
         </p>
         <!-- Image de présentation -->
-        <div id="photoPresentation" class="max-w-sm mx-auto aspect-[4/3] overflow-hidden mb-6">
-          <img src="./assets/images/test-photo-presentation.jpg" alt="Photo de présentation" class="w-full h-full object-cover rounded-lg"/>
+        <div
+          id="photoPresentation"
+          class="max-w-sm mx-auto aspect-[4/3] overflow-hidden mb-6"
+        >
+          <img
+            src="./assets/images/test-photo-presentation.jpg"
+            alt="Photo de présentation"
+            class="w-full h-full object-cover rounded-lg"
+          />
         </div>
       </div>
 
@@ -39,8 +46,14 @@
 
           <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
             <!-- Sound Design -->
-            <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center text-center hover:scale-105 hover:shadow-xl transition-all duration-300">
-              <img src="./assets/images/noto-v1_headphone.svg" alt="Sound Design" class="w-12 h-12 mb-4"/>
+            <div
+              class="bg-white rounded-lg shadow p-6 flex flex-col items-center text-center hover:scale-105 hover:shadow-xl transition-all duration-300"
+            >
+              <img
+                src="./assets/images/noto-v1_headphone.svg"
+                alt="Sound Design"
+                class="w-12 h-12 mb-4"
+              />
               <h3 class="text-xl font-semibold mb-3">Sound Design</h3>
               <p class="text-gray-600 mb-4">
                 Montage Son / Bruitage Création d'effets sonores Identité sonore
@@ -48,8 +61,14 @@
             </div>
 
             <!-- Mixage -->
-            <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center text-center hover:scale-105 hover:shadow-xl transition-all duration-300">
-              <img src="./assets/images/mdi_mixer-settings.svg" alt="Mixage" class="w-12 h-12 mb-4"/>
+            <div
+              class="bg-white rounded-lg shadow p-6 flex flex-col items-center text-center hover:scale-105 hover:shadow-xl transition-all duration-300"
+            >
+              <img
+                src="./assets/images/mdi_mixer-settings.svg"
+                alt="Mixage"
+                class="w-12 h-12 mb-4"
+              />
               <h3 class="text-xl font-semibold mb-3">Mixage</h3>
               <p class="text-gray-600 mb-4">
                 Mixage et mastering de vos pistes audio pour un rendu optimal
@@ -59,8 +78,14 @@
             </div>
 
             <!-- Prise de son -->
-            <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center text-center hover:scale-105 hover:shadow-xl transition-all duration-300">
-              <img src="./assets/images/noto_microphone.svg" alt="Prise de son" class="w-12 h-12 mb-4"/>
+            <div
+              class="bg-white rounded-lg shadow p-6 flex flex-col items-center text-center hover:scale-105 hover:shadow-xl transition-all duration-300"
+            >
+              <img
+                src="./assets/images/noto_microphone.svg"
+                alt="Prise de son"
+                class="w-12 h-12 mb-4"
+              />
               <h3 class="text-xl font-semibold mb-3">Prise de son</h3>
               <p class="text-gray-600 mb-4">
                 Enregistrement de sons de qualité pour vos projets audio. Effets
@@ -69,8 +94,14 @@
             </div>
 
             <!-- Composition Musicale -->
-            <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center text-center hover:scale-105 hover:shadow-xl transition-all duration-300">
-              <img src="./assets/images/icon-park_music.svg" alt="Composition Musicale" class="w-12 h-12 mb-4"/>
+            <div
+              class="bg-white rounded-lg shadow p-6 flex flex-col items-center text-center hover:scale-105 hover:shadow-xl transition-all duration-300"
+            >
+              <img
+                src="./assets/images/icon-park_music.svg"
+                alt="Composition Musicale"
+                class="w-12 h-12 mb-4"
+              />
               <h3 class="text-xl font-semibold mb-3">Composition Musicale</h3>
               <p class="text-gray-600 mb-4">
                 Composition de musiques originales adaptées à l'atmosphère et au
@@ -84,7 +115,10 @@
 
       <!-- Button Voir mon portfolio -->
       <div class="text-center mt-8 mb-8 pb-5">
-        <a href="./portfolio.html" class="bg-sky-800 hover:bg-sky-950 text-white font-bold py-2 px-4 rounded transition">
+        <a
+          href="./portfolio.html"
+          class="bg-sky-800 hover:bg-sky-950 text-white font-bold py-2 px-4 rounded transition"
+        >
           Voir mon portfolio
         </a>
       </div>
@@ -104,6 +138,26 @@
             menu.classList.toggle("hidden");
           });
         }
+
+        // Active link logic
+        const currentPath = window.location.pathname.split("/").pop();
+        console.log("Current path:", currentPath);
+
+        const navLinks = document.querySelectorAll("nav a");
+
+        navLinks.forEach((link) => {
+          const linkPath = link.getAttribute("href").split("/").pop();
+          console.log(
+            "Link path:",
+            linkPath,
+            "matches:",
+            linkPath === currentPath,
+          );
+
+          if (linkPath === currentPath) {
+            link.classList.add("active-link");
+          }
+        });
       });
 
     fetch("./components/footer.html")
