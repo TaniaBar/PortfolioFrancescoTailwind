@@ -6,6 +6,7 @@
   <link href="/src/assets/css/output.css" rel="stylesheet">
 </head>
 <body>
+<script src="./assets/js/i18n.js"></script>
 <header class="w-full border-b border-gray-200 bg-white">
   <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
     
@@ -16,43 +17,69 @@
       </a>
     </div>
 
-    <!-- Burger Menu -->
+    <!-- Burger Menu & Language Selector -->
+    <div class="flex items-center gap-4">
+      <!-- Language Selector -->
+      <div class="flex gap-2 text-sm">
+        <button data-lang="fr" class="px-2 py-1 rounded hover:bg-gray-100 transition font-bold text-blue-600">FR</button>
+        <button data-lang="it" class="px-2 py-1 rounded hover:bg-gray-100 transition">IT</button>
+        <button data-lang="en" class="px-2 py-1 rounded hover:bg-gray-100 transition">EN</button>
+      </div>
+
       <button id="menu-btn" class="text-gray-800 hover:text-gray-600 transition md:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
       </button>
+    </div>
 
     <!-- Desktop Menu -->
     <nav class="hidden md:flex gap-8 text-sm font-medium">
-      <a href="./index.html" class="hover:text-blue-800">Accueil</a>
-      <a href="./portfolio.html" class="hover:text-blue-800">Portfolio</a>
-      <a href="./about.html" class="hover:text-blue-800">À propos</a>
-      <a href="./contact.html" class="hover:text-blue-800">Contact</a>
+      <a href="./index.html" class="hover:text-blue-800" data-i18n="nav.home">Accueil</a>
+      <a href="./portfolio.html" class="hover:text-blue-800" data-i18n="nav.portfolio">Portfolio</a>
+      <a href="./about.html" class="hover:text-blue-800" data-i18n="nav.about">À propos</a>
+      <a href="./contact.html" class="hover:text-blue-800" data-i18n="nav.contact">Contact</a>
     </nav>
 
   </div>
 
   <!-- Mobile Menu -->
   <div id="mobile-menu" class="hidden flex flex-col px-6 pb-4 md:hidden">
-    <a href="./index.html" class="py-2 hover:text-blue-800 text-right">Accueil</a>
-    <a href="./portfolio.html" class="py-2 hover:text-blue-800 text-right">Portfolio</a>
-    <a href="./about.html" class="py-2 hover:text-blue-800 text-right">À propos</a>
-    <a href="./contact.html" class="py-2 hover:text-blue-800 text-right">Contact</a>
+    <a href="./index.html" class="py-2 hover:text-blue-800 text-right" data-i18n="nav.home">Accueil</a>
+    <a href="./portfolio.html" class="py-2 hover:text-blue-800 text-right" data-i18n="nav.portfolio">Portfolio</a>
+    <a href="./about.html" class="py-2 hover:text-blue-800 text-right" data-i18n="nav.about">À propos</a>
+    <a href="./contact.html" class="py-2 hover:text-blue-800 text-right" data-i18n="nav.contact">Contact</a>
   </div>
 
   <div class="flex flex-col items-center">
     <div class="w-1/2">
-      <h1 class="text-3xl font-bold text-center uppercase tracking-wide">
+      <h1 class="text-3xl font-bold text-center uppercase tracking-wide" data-i18n="header.name">
         Francesco Armiento
       </h1>
     </div>
     <div class="w-1/2">
-      <p class="text-gray-600 mt-3 text-center text-xl mb-4 pb-2">
+      <p class="text-gray-600 mt-3 text-center text-xl mb-4 pb-2" data-i18n="header.title">
         Sound Designer | Compositeur | Ingénieur du son
       </p>
     </div>
  
 </header>
+
+<script>
+  // Aggiungi event listener ai bottoni della lingua
+  document.querySelectorAll('[data-lang]').forEach(btn => {
+    btn.addEventListener('click', function() {
+      i18n.setLanguage(this.dataset.lang);
+    });
+  });
+
+  // Gestione menu mobile
+  const menuBtn = document.getElementById('menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+  
+  menuBtn.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+  });
+</script>
 </body>
 </html>

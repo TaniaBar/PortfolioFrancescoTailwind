@@ -4,33 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./assets/css/output.css" rel="stylesheet" />
+    <script src="./assets/js/i18n.js"></script>
   </head>
   <body>
     <div id="header"></div>
 
     <div id="presentation" class="presentation-bg">
       <div class="max-w-6xl mx-auto px-6 py-12">
-        <h2 class="text-2xl font-bold mt-5 mb-4 text-center uppercase">
+        <h2 class="text-2xl font-bold mt-5 mb-4 text-center uppercase" data-i18n="presentation.greeting">
           Bienvenue
         </h2>
-        <p class="text-gray-700 text-center text-lg mb-6">
+        <p class="text-gray-700 text-center text-lg mb-6" data-i18n="presentation.description" data-html="true">
           Je suis Francesco Armiento, un sound designer, compositeur et
           ingénieur du son passionné. <br />
           Découvrez mes projets, mes compétences et n'hésitez pas à me contacter
           pour toute collaboration.
         </p>
         <div id="photoPresentation" class="max-w-sm mx-auto aspect-[4/3] overflow-hidden mb-6 shadow-lg relative">
-          <img src="./assets/images/test-photo-presentation.jpg" alt="Photo de présentation" class="w-full h-full object-cover rounded-lg"/>
+          <img src="./assets/images/test-photo-presentation.jpg" alt="Photo de présentation" data-i18n="presentation.photo_alt" class="w-full h-full object-cover rounded-lg"/>
         </div>
       </div>
     </div>
 
     <div id="prestations">
       <div class="max-w-6xl mx-auto px-6 pb-12">
-        <h2 class="text-2xl font-bold mt-5 mb-4 text-center uppercase">
+        <h2 class="text-2xl font-bold mt-5 mb-4 text-center uppercase" data-i18n="services.title">
           Mes prestations
         </h2>
-        <p class="text-gray-700 text-center text-lg mb-8">
+        <p class="text-gray-700 text-center text-lg mb-8" data-i18n="services.description">
           Je propose une gamme complète de services de sound design, composition
           musicale et ingénierie du son pour répondre à vos besoins créatifs.
         </p>
@@ -38,16 +39,20 @@
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center text-center hover:scale-105 hover:shadow-xl transition-all duration-300">
             <img src="./assets/images/noto-v1_headphone.svg" alt="Sound Design" class="w-12 h-12 mb-4"/>
-            <h3 class="text-xl font-semibold mb-3">Sound Design</h3>
-            <p class="text-gray-600 mb-4">
+            <h3 class="text-xl font-semibold mb-3" data-i18n="services.soundDesign.title">
+              Sound Design
+            </h3>
+            <p class="text-gray-600 mb-4" data-i18n="services.soundDesign.description">
               Montage Son / Bruitage Création d'effets sonores Identité sonore
             </p>
           </div>
 
           <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center text-center hover:scale-105 hover:shadow-xl transition-all duration-300">
             <img src="./assets/images/mdi_mixer-settings.svg" alt="Mixage" class="w-12 h-12 mb-4"/>
-            <h3 class="text-xl font-semibold mb-3">Mixage</h3>
-            <p class="text-gray-600 mb-4">
+            <h3 class="text-xl font-semibold mb-3" data-i18n="services.mixing.title">
+              Mixage
+            </h3>
+            <p class="text-gray-600 mb-4" data-i18n="services.mixing.description">
               Mixage et mastering de vos pistes audio per un rendu optimal nei
               tutti i contesti. Dolby Atmos 5.1 / Stereo Cinéma / TV / Web
             </p>
@@ -55,8 +60,10 @@
 
           <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center text-center hover:scale-105 hover:shadow-xl transition-all duration-300">
             <img src="./assets/images/noto_microphone.svg" alt="Prise de son" class="w-12 h-12 mb-4"/>
-            <h3 class="text-xl font-semibold mb-3">Prise de son</h3>
-            <p class="text-gray-600 mb-4">
+            <h3 class="text-xl font-semibold mb-3" data-i18n="services.engineering.title">
+              Ingénierie du son
+            </h3>
+            <p class="text-gray-600 mb-4" data-i18n="services.engineering.description">
               Enregistrement de sons de qualité pour vos projets audio. Effets
               sonores Banques de sons Voix / Instruments
             </p>
@@ -64,8 +71,10 @@
 
           <div class="bg-white rounded-lg shadow p-6 flex flex-col items-center text-center hover:scale-105 hover:shadow-xl transition-all duration-300">
             <img src="./assets/images/icon-park_music.svg" alt="Composition Musicale" class="w-12 h-12 mb-4"/>
-            <h3 class="text-xl font-semibold mb-3">Composition Musicale</h3>
-            <p class="text-gray-600 mb-4">
+            <h3 class="text-xl font-semibold mb-3" data-i18n="services.composition.title">
+              Composition
+            </h3>
+            <p class="text-gray-600 mb-4" data-i18n="services.composition.description">
               Composition de musiques originales adaptées à l'atmosphère et au
               style de votre projet. Musique originale Musique adaptative
               Production
@@ -76,7 +85,7 @@
     </div>
 
     <div class="text-center mt-8 mb-8 pb-5">
-      <a href="./portfolio.html" class="bg-sky-800 hover:bg-sky-950 text-white font-bold py-2 px-4 rounded transition" >Voir mon portfolio</a>
+      <a href="./portfolio.html" class="bg-sky-800 hover:bg-sky-950 text-white font-bold py-2 px-4 rounded transition" data-i18n="nav.portfolio">Voir mon portfolio</a>
     </div>
 
     <script>
@@ -93,6 +102,13 @@
               menu.classList.toggle("hidden");
             });
           }
+
+          // Language button listeners
+          document.querySelectorAll("[data-lang]").forEach((btn) => {
+            btn.addEventListener("click", function () {
+              i18n.setLanguage(this.dataset.lang);
+            });
+          });
 
           // Active link logic
           const currentPath = window.location.pathname.split("/").pop();

@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "header": {
+    "name": "Francesco Armiento",
+    "title": "Sound Designer | Composer | Sound Engineer"
+  },
+  "presentation": {
+    "greeting": "Welcome",
+    "description": "I'm Francesco Armiento, a passionate sound designer, composer and sound engineer. <br />Discover my projects, my skills and feel free to contact me for any collaboration.",
+    "photo_alt": "Presentation photo"
+  },
+  "services": {
+    "title": "My Services",
+    "description": "I offer a complete range of sound design, music composition and sound engineering services to meet your creative needs.",
+    "soundDesign": {
+      "title": "Sound Design",
+      "description": "Sound Editing / Audio Effects Sound effects creation Sonic identity"
+    },
+    "mixing": {
+      "title": "Mixing",
+      "description": "Audio mixing Mastering Sound post-production"
+    },
+    "composition": {
+      "title": "Composition",
+      "description": "Original music Arrangements Custom compositions"
+    },
+    "engineering": {
+      "title": "Sound Engineering",
+      "description": "Professional recording Audio processing Audio optimization"
+    }
+  }
+}
