@@ -33,5 +33,54 @@
       "title": "Ingegneria del suono",
       "description": "Registrazione professionale Elaborazione audio Ottimizzazione sonora"
     }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Creare esperienze sonore immersive al servizio dell'immagine",
+    "explore": "Esplora altri progetti",
+    "youtube": "Guarda i miei video di progetti su YouTube.",
+    "soundcloud": "Ascolta le mie composizioni e sound design su SoundCloud.",
+    "itchio": "Esplora i miei giochi e progetti su Itch.io."
+  },
+  "skills": {
+    "title": "Competenze e conoscenze",
+    "skillsTitle": "Competenze",
+    "skillsList": [
+      "Sound Design: Creazione di effetti sonori, montaggio audio, identità sonora",
+      "Composizione musicale: Musica originale per film, videogiochi, pubblicità",
+      "Ingegneria del suono: Registrazione, missaggio, mastering, Dolby Atmos 5.1"
+    ],
+    "techTitle": "Conoscenze tecniche",
+    "techList": [
+      "Software: Pro Tools, Ableton Live, Logic Pro X, Reaper",
+      "Plugin: Waves, FabFilter, iZotope, Soundtoys",
+      "Tecniche di registrazione: Microfoni, tecniche di registrazione in campo e in studio"
+    ]
+  },
+  "contact": {
+    "cta": "Hai un progetto in mente? Parliamone",
+    "button": "Lasciami un messaggio"
+  },
+    "project1": {
+      "title": "Progetto 1",
+      "description": "Descrizione del progetto 1. Un progetto di sound design per un videogioco."
+    },
+    "project2": {
+      "title": "Progetto 2",
+      "description": "Descrizione del progetto 2. Un progetto di composizione musicale per un film."
+    },
+    "project3": {
+      "title": "Progetto 3",
+      "description": "Descrizione del progetto 3. Un progetto di registrazione di un gruppo musicale"
+    },
+  "about": {
+    "title": "Chi sono",
+    "description1": "Lorem, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque.",
+    "description2": "Ho lavorato su una varietà di progetti, dai piccoli giochi indipendenti alle produzioni cinematografiche di grande portata. Il mio approccio creativo e la capacità di collaborare strettamente con i team di sviluppo mi permettono di creare esperienze sonore immersive che rafforzano l'impatto emotivo e narrativo di ogni progetto.",
+    "description3": "Padroneggio una gamma completa di strumenti e tecniche per la creazione e la post-produzione sonora. Dalla composizione musicale alla manipolazione avanzata del suono, sono in grado di rispondere alle esigenze più esigenti di ogni progetto.",
+    "contact": {
+      "cta": "Hai un progetto in mente? Parliamone! Sono in ascolto delle tue esigenze per proporti le migliori soluzioni sonore e musicali",
+      "button": "Lasciami un messaggio"
+    }
   }
 }

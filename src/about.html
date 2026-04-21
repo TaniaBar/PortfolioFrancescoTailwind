@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./assets/css/output.css" rel="stylesheet" />
+    <script src="./assets/js/i18n.js"></script>
   </head>
   <body>
     <div id="header"></div>
     <div id="about" class="presentation-bg py-12">
-      <h2 class="text-3xl font-bold text-center mb-8 uppercase">A propos</h2>
+      <h2 class="text-3xl font-bold text-center mb-8 uppercase" data-i18n="about.title">A propos</h2>
     </div>
 
     <!-- Section de présentation avec une photo à gauche et du texte à droite -->
@@ -19,7 +20,7 @@
         </div>
         <div class="md:w-1/2 md:pl-8">
           <img src="./assets/images/noto-v1_headphone.svg" alt="Sound Design" class="w-12 h-12 mb-4"/>
-          <p class="text-gray-600">
+          <p class="text-gray-600" data-i18n="about.description1">
             Lorem, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque.
           </p>
         </div>
@@ -34,7 +35,7 @@
         </div>
         <div class="md:w-1/2 md:pl-8 md:pr-8">
           <img src="./assets/images/noto_microphone.svg" alt="Mixage" class="w-12 h-12 mb-4" />
-          <p class="text-gray-600">
+          <p class="text-gray-600" data-i18n="about.description2">
             J'ai travaillé sur une variété de projets, allant de petits jeux
             indépendants à des productions cinématographiques de grande
             envergure. Mon approche créative et ma capacité à collaborer
@@ -54,7 +55,7 @@
         </div>
         <div class="md:w-1/2 md:pl-8">
           <img src="./assets/images/mdi_mixer-settings.svg" alt="Prise de son" class="w-12 h-12 mb-4"/>
-          <p class="text-gray-600">
+          <p class="text-gray-600" data-i18n="about.description3">
             Je maîtrise une gamme complète d'outils et de techniques pour la
             création et la post-production sonore. De la composition musicale à
             la manipulation avancée du son, je suis capable de répondre aux
@@ -66,9 +67,9 @@
 
     <!-- Section Contact-->
   <div class="max-w-6xl mx-auto px-6 py-12">
-    <p class="text-gray-600 text-center mb-12">Un projet en tête ? Discutons-en ! Je suis à l'écoute de vos besoins pour vous proposer les meilleures solutions sonores et musicales</p>
+    <p class="text-gray-600 text-center mb-12" data-i18n="about.contact.cta">Un projet en tête ? Discutons-en ! Je suis à l'écoute de vos besoins pour vous proposer les meilleures solutions sonores et musicales</p>
     <div class="text-center">
-      <a href="mailto:contact@votre-email.com" class="bg-gray-800 text-white px-6 py-3 rounded hover:bg-gray-700 transition uppercase">Laissez-moi un message</a>
+      <a href="mailto:contact@votre-email.com" class="bg-gray-800 text-white px-6 py-3 rounded hover:bg-gray-700 transition uppercase" data-i18n="about.contact.button">Laissez-moi un message</a>
     </div>
   </div>
 
@@ -87,6 +88,13 @@
             menu.classList.toggle("hidden");
           });
         }
+
+          // Language button listeners
+          document.querySelectorAll("[data-lang]").forEach((btn) => {
+            btn.addEventListener("click", function () {
+              i18n.setLanguage(this.dataset.lang);
+            });
+          });
 
         // Active link logic
         const currentPath = window.location.pathname.split("/").pop();
@@ -116,5 +124,6 @@
         footer.innerHTML = data;
         document.body.appendChild(footer);
       });
+
   </script>
 </html>
