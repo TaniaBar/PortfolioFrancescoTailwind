@@ -19,19 +19,19 @@
     "description": "Offro una gamma completa di servizi di sound design, composizione musicale e ingegneria del suono per soddisfare le tue esigenze creative.",
     "soundDesign": {
       "title": "Sound Design",
-      "description": "Montaggio audio / Effetti sonori Creazione di effetti sonori Identità sonora"
+      "description": "Montaggio audio<br />Effetti sonori<br />Creazione di effetti sonori<br />Identità sonora"
     },
     "mixing": {
-      "title": "Missaggio",
-      "description": "Missaggio audio Mastering Post-produzione sonora"
+      "title": "Mixaggio",
+      "description": "Mixaggio audio<br />Mastering<br />Post-produzione sonora"
     },
     "composition": {
       "title": "Composizione",
-      "description": "Musica originale Arrangiamenti Composizioni su misura"
+      "description": "Musica originale<br />Arrangiamenti<br />Composizioni su misura"
     },
     "engineering": {
       "title": "Ingegneria del suono",
-      "description": "Registrazione professionale Elaborazione audio Ottimizzazione sonora"
+      "description": "Registrazione professionale<br />Elaborazione audio<br />Ottimizzazione sonora"
     }
   },
   "portfolio": {
