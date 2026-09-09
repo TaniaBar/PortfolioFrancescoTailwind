@@ -19,19 +19,19 @@
     "description": "I offer a complete range of sound design, music composition and sound engineering services to meet your creative needs.",
     "soundDesign": {
       "title": "Sound Design",
-      "description": "Sound Editing / Audio Effects Sound effects creation Sonic identity"
+      "description": "Sound Editing<br />Audio Effects<br />Sound effects creation<br />Sonic identity"
     },
     "mixing": {
       "title": "Mixing",
-      "description": "Audio mixing Mastering Sound post-production"
+      "description": "Audio mixing<br />Mastering<br />Sound post-production"
     },
     "composition": {
       "title": "Composition",
-      "description": "Original music Arrangements Custom compositions"
+      "description": "Original music<br />Arrangements<br />Custom compositions"
     },
     "engineering": {
       "title": "Sound Engineering",
-      "description": "Professional recording Audio processing Audio optimization"
+      "description": "Professional recording<br />Audio processing<br />Audio optimization"
     }
   },
   "portfolio": {
