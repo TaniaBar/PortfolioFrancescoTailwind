@@ -1,5 +1,27 @@
 @import "tailwindcss";
 
+#header {
+  background-color: #fff;
+}
+
+#header > header {
+  position: relative;
+  background-color: transparent;
+  padding-bottom: 2rem;
+}
+
+#header-logo img {
+  position: absolute;
+  top: 50%;
+  left: max(1.5rem, calc((100% - 72rem) / 2 + 1.5rem));
+  transform: translateY(-50%);
+}
+
+#header > header,
+#header > header * {
+  color: #000;
+}
+
 .active-link {
   @apply text-blue-500 font-semibold;
 }
