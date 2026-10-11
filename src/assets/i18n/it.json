@@ -7,19 +7,19 @@
   },
   "header": {
     "name": "Francesco Armiento",
-    "title": "Sound Designer | Compositore | Ingegnere del suono"
+    "title": "Sound Designer | Music Composer | Tecnico del suono"
   },
   "presentation": {
     "greeting": "Benvenuto",
-    "description": "Sono Francesco Armiento, un sound designer, compositore e ingegnere del suono appassionato. <br />Scopri i miei progetti, le mie competenze e non esitare a contattarmi per qualsiasi collaborazione.",
+    "description": "Sono Francesco Armiento, sound designer, compositore e audio engineer. <br />Questo spazio raccoglie i miei progetti e le mie competenze: esplora i miei lavori e troviamo insieme la dimensione sonora perfetta per la tua prossima idea.",
     "photo_alt": "Foto di presentazione"
   },
   "services": {
-    "title": "I miei servizi",
-    "description": "Offro una gamma completa di servizi di sound design, composizione musicale e ingegneria del suono per soddisfare le tue esigenze creative.",
+    "title": "L'arte e la tecnica del suono",
+    "description": "Curo ogni aspetto della dimensione sonora, combinando ricerca estetica e precisione tecnica per dare voce a storie, immagini e musica.",
     "soundDesign": {
       "title": "Sound Design",
-      "description": "Montaggio audio<br />Effetti sonori<br />Creazione di effetti sonori<br />Identità sonora"
+      "description": "Montaggio audio<br />Effetti sonori<br />Sound design lineare e interattivo<br />Audio branding"
     },
     "mixing": {
       "title": "Mixaggio",
@@ -27,10 +27,10 @@
     },
     "composition": {
       "title": "Composizione",
-      "description": "Musica originale<br />Arrangiamenti<br />Composizioni su misura"
+      "description": "Musica originale<br />Arrangiamenti<br />Colonna sonora e sonorizzazioni"
     },
     "engineering": {
-      "title": "Ingegneria del suono",
+      "title": "Audio Engineering",
       "description": "Registrazione professionale<br />Elaborazione audio<br />Ottimizzazione sonora"
     }
   },
@@ -48,7 +48,7 @@
     "skillsList": [
       "Sound Design: Creazione di effetti sonori, montaggio audio, identità sonora",
       "Composizione musicale: Musica originale per film, videogiochi, pubblicità",
-      "Ingegneria del suono: Registrazione, missaggio, mastering, Dolby Atmos 5.1"
+      "Audio Engineering: Registrazione, mixaggio, mastering, Dolby Atmos 5.1"
     ],
     "techTitle": "Conoscenze tecniche",
     "techList": [
