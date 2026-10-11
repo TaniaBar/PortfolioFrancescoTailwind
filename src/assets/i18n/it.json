@@ -35,8 +35,8 @@
     }
   },
   "portfolio": {
-    "title": "Portfolio",
-    "subtitle": "Creare esperienze sonore immersive al servizio dell'immagine",
+    "title": "Progetti e lavori",
+    "subtitle": "Una selezione di lavori che raccontano il mio percorso tra ricerca acustica, composizione musicale e sound design.",
     "explore": "Esplora altri progetti",
     "youtube": "Guarda i miei video di progetti su YouTube.",
     "soundcloud": "Ascolta le mie composizioni e sound design su SoundCloud.",
@@ -61,18 +61,30 @@
     "cta": "Hai un progetto in mente? Parliamone",
     "button": "Lasciami un messaggio"
   },
-    "project1": {
-      "title": "Progetto 1",
-      "description": "Descrizione del progetto 1. Un progetto di sound design per un videogioco."
-    },
-    "project2": {
-      "title": "Progetto 2",
-      "description": "Descrizione del progetto 2. Un progetto di composizione musicale per un film."
-    },
-    "project3": {
-      "title": "Progetto 3",
-      "description": "Descrizione del progetto 3. Un progetto di registrazione di un gruppo musicale"
-    },
+  "project1": {
+    "title": "Pulse",
+    "description": "Un viaggio audiovisivo in tre capitoli legato da un unico battito. Sound design e composizione realizzati su Ableton Live con l'integrazione di field recording e sintesi sonora. Mixato su Reaper e diffuso in formato immersivo multicanale 10.1."
+  },
+  "project2": {
+    "title": "Fréquences Félines",
+    "description": "Fréquences Félines est une émission de radio où les chats prennent le micro pour partager avec nous leur vision du monde."
+  },
+  "project3": {
+    "title": "Tout est sous contrôle",
+    "description": "Produzione audio completa (Ripresa, Mix e Mastering) in studio per il brano \"Tout est sous contrôle\" del gruppo Madruga. Un pezzo acustico ed evocativo (chitarra, pianoforte, cajón e violoncello) composto per lo spettacolo teatrale a sfondo ecologista « Le point de bascule »."
+  },
+  "project4": {
+    "title": "Twin Sides",
+    "description": "Una breve anteprima del gameplay di Twin Sides, puzzle game in prima persona sviluppato in collaborazione con Cularo Games in occasione della Brackeys Game Jam 2026.1."
+  },
+  "project5": {
+    "title": "Tales of Yro",
+    "description": "La colonna sonora principale per il menù di \"Tales of Yro\", videogioco attualmente in produzione. Colonna sonora originale e arrangiamento sviluppati per un progetto accademico in collaborazione con il team di Studio M"
+  },
+  "project6": {
+    "title": "DeadHand",
+    "description": "Colonna sonora originale e tema principale per il videogioco \"DeadHand\", interamente realizzati in sole 48 ore in occasione della Global Game Jam. Una composizione rapida e d'impatto progettata per catturare l'essenza e il ritmo del gioco."
+  },
   "about": {
     "title": "Chi sono",
     "description1": "Lorem, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque.",
