@@ -3,24 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@1,300&family=Space+Grotesk:wght@600&display=swap" rel="stylesheet" />
     <link href="./assets/css/output.css" rel="stylesheet" />
     <script src="./assets/js/i18n.js"></script>
   </head>
-  <body>
+  <body class="about-page">
     <div id="header"></div>
     <div id="about" class="presentation-bg py-12">
       <h2 class="text-3xl font-bold text-center mb-8 uppercase" data-i18n="about.title">A propos</h2>
     </div>
 
     <!-- Section de présentation avec une photo à gauche et du texte à droite -->
-    <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-6xl mx-auto px-4 py-12">
       <div class="flex flex-col md:flex-row items-center">
-        <div class="md:w-1/2 mb-8 md:mb-0">
-          <img src="./assets/images/profile.jpg" alt="Profile Image" class="rounded-lg shadow-lg"/>
+        <div class="md:w-5/12 mb-8 md:mb-0">
+          <img src="./assets/images/profile2.jpeg" alt="Profile Image" class="aspect-[4/3] w-full object-cover rounded-lg shadow-lg"/>
         </div>
-        <div class="md:w-1/2 md:pl-8">
-          <img src="./assets/images/noto-v1_headphone.svg" alt="Sound Design" class="w-12 h-12 mb-4"/>
-          <p class="text-gray-600" data-i18n="about.description1">
+        <div class="md:w-7/12 md:pl-8 md:self-stretch md:flex md:flex-col md:justify-start">
+          <img src="./assets/images/noto-v1_headphone.svg" alt="Sound Design" class="block w-12 h-12 mb-4 md:mb-12 mx-auto"/>
+          <p class="text-gray-600 text-justify" data-i18n="about.description1">
             Lorem, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque.
           </p>
         </div>
@@ -30,12 +33,12 @@
     <!-- Section de présentation partie 2 avec du texte à gauche et une photo à droite -->
     <div class="max-w-6xl mx-auto px-4 py-12">
       <div class="flex flex-col md:flex-row-reverse items-center">
-        <div class="md:w-1/2 mb-8 md:mb-0">
-          <img src="./assets/images/work.jpg" alt="Work Image" class="rounded-lg shadow-lg"/>
+        <div class="md:w-5/12 mb-8 md:mb-0">
+          <img src="./assets/images/work.jpeg" alt="Work Image" class="aspect-[4/3] w-full object-cover rounded-lg shadow-lg"/>
         </div>
-        <div class="md:w-1/2 md:pl-8 md:pr-8">
-          <img src="./assets/images/noto_microphone.svg" alt="Mixage" class="w-12 h-12 mb-4" />
-          <p class="text-gray-600" data-i18n="about.description2">
+        <div class="md:w-7/12 md:pl-8 md:pr-8 md:self-stretch md:flex md:flex-col md:justify-start">
+          <img src="./assets/images/noto_microphone.svg" alt="Mixage" class="block w-12 h-12 mb-4 md:mb-12 mx-auto" />
+          <p class="text-gray-600 text-justify" data-i18n="about.description2">
             J'ai travaillé sur une variété de projets, allant de petits jeux
             indépendants à des productions cinématographiques de grande
             envergure. Mon approche créative et ma capacité à collaborer
@@ -50,12 +53,12 @@
     <!-- Troisième section de présentation -->
     <div class="max-w-6xl mx-auto px-4 py-12">
       <div class="flex flex-col md:flex-row items-center">
-        <div class="md:w-1/2 mb-8 md:mb-0">
-          <img src="./assets/images/skills.jpg" alt="Skills Image" class="rounded-lg shadow-lg"/>
+        <div class="md:w-5/12 mb-8 md:mb-0">
+          <img src="./assets/images/skills.jpeg" alt="Skills Image" class="aspect-[4/3] w-full object-cover rounded-lg shadow-lg"/>
         </div>
-        <div class="md:w-1/2 md:pl-8">
-          <img src="./assets/images/mdi_mixer-settings.svg" alt="Prise de son" class="w-12 h-12 mb-4"/>
-          <p class="text-gray-600" data-i18n="about.description3">
+        <div class="md:w-7/12 md:pl-8 md:self-stretch md:flex md:flex-col md:justify-start">
+          <img src="./assets/images/mdi_mixer-settings.svg" alt="Prise de son" class="block w-12 h-12 mb-4 md:mb-12 mx-auto"/>
+          <p class="text-gray-600 text-justify" data-i18n="about.description3">
             Je maîtrise une gamme complète d'outils et de techniques pour la
             création et la post-production sonore. De la composition musicale à
             la manipulation avancée du son, je suis capable de répondre aux

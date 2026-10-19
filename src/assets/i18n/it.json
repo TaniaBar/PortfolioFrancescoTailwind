@@ -38,28 +38,28 @@
     "title": "Progetti e lavori",
     "subtitle": "Una selezione di lavori che raccontano il mio percorso tra ricerca acustica, composizione musicale e sound design.",
     "explore": "Esplora altri progetti",
-    "youtube": "Guarda i miei video di progetti su YouTube.",
-    "soundcloud": "Ascolta le mie composizioni e sound design su SoundCloud.",
-    "itchio": "Esplora i miei giochi e progetti su Itch.io."
+    "youtube": "Progetti e showreel video",
+    "soundcloud": "Brani e portfolio musicale",
+    "itchio": "Videogiochi e progetti interattivi"
   },
   "skills": {
     "title": "Competenze e conoscenze",
     "skillsTitle": "Competenze",
     "skillsList": [
-      "Sound Design: Creazione di effetti sonori, montaggio audio, identità sonora",
-      "Composizione musicale: Musica originale per film, videogiochi, pubblicità",
-      "Audio Engineering: Registrazione, mixaggio, mastering, Dolby Atmos 5.1"
+      "Sound Design: Creazione di effetti sonori (Foley & Hard FX), montaggio audio e audio branding.",
+      "Composizione musicale: Colonne sonore e musica originale per film, videogiochi e spot pubblicitari.",
+      "Audio Engineering: Mixaggio, mastering e missaggio audio immersivo (Dolby Atmos, configurazioni multicanale)."
     ],
     "techTitle": "Conoscenze tecniche",
     "techList": [
       "Software: Pro Tools, Ableton Live, Logic Pro X, Reaper",
       "Plugin: Waves, FabFilter, iZotope, Soundtoys",
-      "Tecniche di registrazione: Microfoni, tecniche di registrazione in campo e in studio"
+      "Tecniche di ripresa: Tecniche microfoniche avanzate, registrazione in studio e field recording (presa diretta)."
     ]
   },
   "contact": {
     "cta": "Hai un progetto in mente? Parliamone",
-    "button": "Lasciami un messaggio"
+    "button": "Contattami"
   },
   "project1": {
     "title": "Pulse",
@@ -87,12 +87,12 @@
   },
   "about": {
     "title": "Chi sono",
-    "description1": "Lorem, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque.",
-    "description2": "Ho lavorato su una varietà di progetti, dai piccoli giochi indipendenti alle produzioni cinematografiche di grande portata. Il mio approccio creativo e la capacità di collaborare strettamente con i team di sviluppo mi permettono di creare esperienze sonore immersive che rafforzano l'impatto emotivo e narrativo di ogni progetto.",
-    "description3": "Padroneggio una gamma completa di strumenti e tecniche per la creazione e la post-produzione sonora. Dalla composizione musicale alla manipolazione avanzata del suono, sono in grado di rispondere alle esigenze più esigenti di ogni progetto.",
+    "description1": "Fin da adolescente, la musica elettronica mi ha aperto le porte di un universo inesplorato. Ho iniziato come DJ, passando ore a studiare le strutture dei brani, il groove e l'impatto del suono sulle persone. Ben presto, però, riprodurre la musica degli altri non mi è bastato più: sentivo il bisogno di creare. Ho capito che il suono non è solo musica, ma un potente strumento narrativo capace di rendere memorabile qualsiasi esperienza visiva e interattiva. È proprio con questa consapevolezza che ho deciso di trasformare la mia passione in un lavoro, investendo autonomamente e con determinazione nella mia formazione professionale.",
+    "description2": "Ho collaborato a una grande varietà di progetti, dai videogiochi indipendenti alle produzioni musicali in studio, fino ai concerti live e alla musica applicata alle immagini. Il mio approccio unisce sensibilità creativa e una stretta sinergia con i team di sviluppo, con l'obiettivo di dare vita a esperienze sonore immersive che amplificano l'impatto emotivo e narrativo di ogni opera. Attraverso la ricerca timbrica, la cura del dettaglio e la sperimentazione, cerco di dare a ogni progetto una propria identità sonora, capace di lasciare un'impressione duratura.",
+    "description3": "Seguo ogni fase della produzione audio, dalla composizione musicale alla registrazione, fino al sound design e alla post-produzione. Lavoro sul suono sperimentando con strumenti e tecniche diverse, cercando ogni volta la soluzione più adatta all'identità del progetto. Che si tratti di creare un'atmosfera, definire il carattere di un suono o rifinire il mix finale, curo ogni dettaglio per ottenere un risultato coerente con la visione creativa e le esigenze del progetto.",
     "contact": {
       "cta": "Hai un progetto in mente? Parliamone! Sono in ascolto delle tue esigenze per proporti le migliori soluzioni sonore e musicali",
-      "button": "Lasciami un messaggio"
+      "button": "Contattami"
     }
   }
 }
