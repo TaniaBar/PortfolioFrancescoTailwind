@@ -35,10 +35,9 @@ class I18n {
   updateLanguageButton() {
     const buttons = document.querySelectorAll("[data-lang]");
     buttons.forEach((btn) => {
-      btn.classList.remove("font-bold", "text-blue-600");
-      if (btn.dataset.lang === this.currentLanguage) {
-        btn.classList.add("font-bold", "text-blue-600");
-      }
+      const isActive = btn.dataset.lang === this.currentLanguage;
+      btn.classList.toggle("is-active", isActive);
+      btn.setAttribute("aria-pressed", String(isActive));
     });
   }
 

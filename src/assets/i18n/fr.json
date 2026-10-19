@@ -7,19 +7,19 @@
   },
   "header": {
     "name": "Francesco Armiento",
-    "title": "Sound Designer | Compositeur | Ingénieur du son"
+    "title": "Sound designer | Compositeur | Ingénieur du son"
   },
   "presentation": {
     "greeting": "Bienvenue",
-    "description": "Je suis Francesco Armiento, un sound designer, compositeur et ingénieur du son passionné. <br />Découvrez mes projets, mes compétences et n'hésitez pas à me contacter pour toute collaboration.",
+    "description": "Je suis Francesco Armiento, sound designer, compositeur et ingénieur du son. <br />Cet espace rassemble mes projets et mes compétences : découvrez mes réalisations et trouvons ensemble l'univers sonore idéal pour votre prochaine idée.",
     "photo_alt": "Photo de présentation"
   },
   "services": {
-    "title": "Mes prestations",
-    "description": "Je propose une gamme complète de services de sound design, composition musicale et ingénierie du son pour répondre à vos besoins créatifs.",
+    "title": "L'art et la technique du son",
+    "description": "Je prends en charge tous les aspects de la création sonore, en associant recherche esthétique et précision technique pour donner vie aux histoires, aux images et à la musique.",
     "soundDesign": {
-      "title": "Sound Design",
-      "description": "Montage Son<br />Bruitage<br />Création d'effets sonores<br />Identité sonore"
+      "title": "Sound design",
+      "description": "Montage audio<br />Effets sonores<br />Sound design linéaire et interactif<br />Identité sonore"
     },
     "mixing": {
       "title": "Mixage",
@@ -27,60 +27,72 @@
     },
     "composition": {
       "title": "Composition",
-      "description": "Musique originale<br />Arrangements<br />Compositions sur mesure"
+      "description": "Musique originale<br />Arrangements<br />Bandes originales et sonorisation"
     },
     "engineering": {
-      "title": "Ingénierie du son",
+      "title": "Ingénierie audio",
       "description": "Enregistrement professionnel<br />Traitement audio<br />Optimisation sonore"
     }
   },
   "portfolio": {
-    "title": "Portfolio",
-    "subtitle": "Créer des expériences sonores immersives au service de l'image",
-    "explore": "Explorations d'autres projets",
-    "youtube": "Regardez mes vidéos de projets sur YouTube.",
-    "soundcloud": "Écoutez mes compositions et sound designs sur SoundCloud.",
-    "itchio": "Explorez mes jeux et projets sur Itch.io."
+    "title": "Projets et réalisations",
+    "subtitle": "Une sélection de projets qui retracent mon parcours entre recherche acoustique, composition musicale et sound design.",
+    "explore": "Découvrez d'autres projets",
+    "youtube": "Projets vidéo et showreels",
+    "soundcloud": "Morceaux et portfolio musical",
+    "itchio": "Jeux vidéo et projets interactifs"
   },
   "skills": {
     "title": "Compétences et connaissances",
     "skillsTitle": "Compétences",
     "skillsList": [
-      "Sound Design : Création d'effets sonores, montage sonore, identité sonore",
-      "Composition musicale : Musique originale pour film, jeu vidéo, publicité",
-      "Ingénierie du son : Enregistrement, mixage, mastering, Dolby Atmos 5.1"
+      "Sound design : Création d'effets sonores (Foley et Hard FX), montage audio et identité sonore.",
+      "Composition musicale : Bandes originales et musique originale pour le cinéma, les jeux vidéo et la publicité.",
+      "Ingénierie audio : Mixage, mastering et mixage immersif (Dolby Atmos, configurations multicanales)."
     ],
     "techTitle": "Connaissances techniques",
     "techList": [
       "Logiciels : Pro Tools, Ableton Live, Logic Pro X, Reaper",
       "Plugins : Waves, FabFilter, iZotope, Soundtoys",
-      "Techniques de prise de son : Microphones, techniques d'enregistrement sur le terrain et en studio"
+      "Techniques de prise de son : Techniques avancées de microphone, enregistrement en studio et prise de son en extérieur."
     ]
   },
   "contact": {
-    "cta": "Un projet en tête ? Discutons-en",
-    "button": "Laissez-moi un message"
+    "cta": "Vous avez un projet en tête ? Parlons-en.",
+    "button": "Contactez-moi"
   },
-    "project1": {
-      "title": "Project 1",
-      "description": "Description du projet 1. Un projet de sound design pour un jeu vidéo."
-    },
-    "project2": {
-      "title": "Project 2",
-      "description": "Description du projet 2. Un projet de composition musicale pour un film."
-    },
-    "project3": {
-      "title": "Project 3",
-      "description": "Description du projet 3. Un projet d'enregistrement d'un groupe musical"
-    },
+  "project1": {
+    "title": "Pulse",
+    "description": "Un voyage audiovisuel en trois chapitres, porté par un même battement. Sound design et composition réalisés sur Ableton Live, avec des enregistrements de terrain et de la synthèse sonore. Mixé sur Reaper et diffusé en format immersif multicanal 10.1."
+  },
+  "project2": {
+    "title": "Fréquences Félines",
+    "description": "Fréquences Félines est une émission de radio où les chats prennent le micro pour partager leur vision du monde."
+  },
+  "project3": {
+    "title": "Tout est sous contrôle",
+    "description": "Production audio complète en studio (prise de son, mixage et mastering) du morceau « Tout est sous contrôle » du groupe Madruga. Cette pièce acoustique et évocatrice, composée pour le spectacle à thème écologique « Le point de bascule », réunit guitare, piano, cajón et violoncelle."
+  },
+  "project4": {
+    "title": "Twin Sides",
+    "description": "Un bref aperçu du gameplay de Twin Sides, un jeu de réflexion à la première personne développé avec Cularo Games pour la Brackeys Game Jam 2026.1."
+  },
+  "project5": {
+    "title": "Tales of Yro",
+    "description": "Le thème principal du menu de Tales of Yro, un jeu vidéo actuellement en production. Cette bande originale et son arrangement ont été créés dans le cadre d'un projet universitaire en collaboration avec l'équipe de Studio M."
+  },
+  "project6": {
+    "title": "DeadHand",
+    "description": "Bande originale et thème principal du jeu vidéo DeadHand, entièrement composés en seulement 48 heures lors de la Global Game Jam. Une composition percutante et rapide, conçue pour saisir l'essence et le rythme du jeu."
+  },
   "about": {
     "title": "À propos",
-    "description1": "Lorem, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque.",
-    "description2": "J'ai travaillé sur une variété de projets, allant de petits jeux indépendants à des productions cinématographiques de grande envergure. Mon approche créative et ma capacité à collaborer étroitement avec les équipes de développement me permettent de créer des expériences sonores immersives qui renforcent l'impact émotionnel et narratif de chaque projet.",
-    "description3": "Je maîtrise une gamme complète d'outils et de techniques pour la création et la post-production sonore. De la composition musicale à la manipulation avancée du son, je suis capable de répondre aux exigences les plus exigeantes de chaque projet.",
+    "description1": "Dès l'adolescence, la musique électronique m'a ouvert les portes d'un univers inexploré. J'ai commencé comme DJ, passant des heures à étudier la structure des morceaux, le groove et l'impact du son sur le public. Mais jouer la musique des autres ne m'a bientôt plus suffi : j'avais besoin de créer. J'ai compris que le son n'est pas seulement de la musique, mais aussi un puissant outil narratif, capable de rendre mémorable toute expérience visuelle ou interactive. C'est cette prise de conscience qui m'a poussé à faire de ma passion mon métier et à investir, avec détermination et de façon autonome, dans ma formation professionnelle.",
+    "description2": "J'ai collaboré à une grande variété de projets : jeux vidéo indépendants, productions musicales en studio, concerts et musique à l'image. Mon approche associe sensibilité créative et étroite collaboration avec les équipes de développement pour donner vie à des expériences sonores immersives qui renforcent l'impact émotionnel et narratif de chaque œuvre. Grâce à la recherche sonore, au souci du détail et à l'expérimentation, je cherche à donner à chaque projet une identité sonore singulière et durable.",
+    "description3": "J'interviens à chaque étape de la production audio, de la composition musicale à l'enregistrement, en passant par le sound design et la post-production. J'explore différents outils et techniques pour trouver la solution la mieux adaptée à l'identité de chaque projet. Qu'il s'agisse de créer une atmosphère, de définir le caractère d'un son ou de peaufiner le mixage final, je soigne chaque détail afin de respecter la vision créative et les besoins du projet.",
     "contact": {
-      "cta": "Un projet en tête ? Discutons-en ! Je suis à l'écoute de vos besoins pour vous proposer les meilleures solutions sonores et musicales",
-      "button": "Laissez-moi un message"
+      "cta": "Vous avez un projet en tête ? Parlons-en ! Je suis à votre écoute pour vous proposer les solutions sonores et musicales les mieux adaptées à vos besoins.",
+      "button": "Contactez-moi"
     }
   }
 }

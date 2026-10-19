@@ -16,8 +16,6 @@
     --color-sky-800: oklch(44.3% 0.11 240.79);
     --color-sky-900: oklch(39.1% 0.09 240.876);
     --color-sky-950: oklch(29.3% 0.066 243.157);
-    --color-blue-500: oklch(62.3% 0.214 259.815);
-    --color-blue-600: oklch(54.6% 0.245 262.881);
     --color-blue-800: oklch(42.4% 0.199 265.638);
     --color-indigo-50: oklch(96.2% 0.018 272.314);
     --color-indigo-100: oklch(93% 0.034 272.788);
@@ -29,7 +27,6 @@
     --color-indigo-900: oklch(35.9% 0.144 278.697);
     --color-slate-700: oklch(37.2% 0.044 257.287);
     --color-slate-900: oklch(20.8% 0.042 265.755);
-    --color-gray-100: oklch(96.7% 0.003 264.542);
     --color-gray-200: oklch(92.8% 0.006 264.531);
     --color-gray-300: oklch(87.2% 0.01 258.338);
     --color-gray-600: oklch(44.6% 0.03 256.802);
@@ -560,9 +557,6 @@
     --tw-tracking: var(--tracking-wide);
     letter-spacing: var(--tracking-wide);
   }
-  .text-blue-600 {
-    color: var(--color-blue-600);
-  }
   .text-gray-600 {
     color: var(--color-gray-600);
   }
@@ -689,13 +683,6 @@
     &:hover {
       @media (hover: hover) {
         border-color: var(--color-sky-300);
-      }
-    }
-  }
-  .hover\:bg-gray-100 {
-    &:hover {
-      @media (hover: hover) {
-        background-color: var(--color-gray-100);
       }
     }
   }
@@ -861,46 +848,58 @@
     }
   }
 }
-.about-page, .about-page * {
+body, body * {
   font-family: "Inter", sans-serif;
   font-style: italic;
   font-weight: 300;
-  color: #1C2E4A;
 }
-.about-page :is(h1, h2, h3, h4, h5, h6) {
+body {
+  color: #1C2E4A;
+  background-color: #C5DFE7;
+}
+body :is(h1, h2, h3, h4, h5, h6) {
   font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 600;
   color: #2D4976;
 }
-.about-page {
-  background-color: #C5DFE7;
+.about-page p {
+  line-height: 1.8;
 }
-.about-page #header > header {
-  background-color: #1E3E48;
-}
-.about-page #header > header, .about-page #header > header * {
-  color: #fff;
-}
-.about-page footer, .about-page footer * {
-  color: #fff;
-}
-.about-page .presentation-bg {
-  background-color: #C5DFE7;
-}
-.about-page .presentation-bg::after {
-  background: linear-gradient( 180deg, rgba(197, 223, 231, 0) 0%, rgba(197, 223, 231, 0.95) 65%, #C5DFE7 100% );
-}
-.about-page a[href^="mailto:"] {
-  background-color: #1E3E48;
-  color: #C5DFE7;
+.text-gray-600, .text-gray-700, .text-slate-700, .text-slate-900 {
+  color: #1C2E4A;
 }
 #header {
-  background-color: #fff;
+  background-color: #C5DFE7;
+}
+#header > header, #header > header * {
+  color: #fff;
+}
+footer {
+  background-color: #1E3E48;
+}
+footer, footer * {
+  color: #fff;
+}
+.presentation-bg {
+  background-color: #C5DFE7;
+}
+.presentation-bg::after {
+  background: linear-gradient( 180deg, rgba(197, 223, 231, 0) 0%, rgba(197, 223, 231, 0.95) 65%, #C5DFE7 100% );
+}
+.bg-gray-800, .bg-sky-800 {
+  background-color: #1E3E48;
+}
+.hover\:bg-sky-950:hover, .hover\:bg-gray-700:hover {
+  background-color: #2D4976;
+}
+a[href^="mailto:"] {
+  background-color: #1E3E48;
+  color: #fff;
 }
 #header > header {
   position: relative;
-  background-color: transparent;
+  background-color: #1E3E48;
   padding-bottom: 2rem;
 }
 #header-logo img {
@@ -909,24 +908,22 @@
   left: max(1.5rem, calc((100% - 72rem) / 2 + 1.5rem));
   transform: translateY(-50%);
 }
-#header > header, #header > header * {
-  color: #000;
-}
 .active-link {
-  --tw-font-weight: var(--font-weight-semibold);
-  font-weight: var(--font-weight-semibold);
-  color: var(--color-blue-500);
+  color: #fff;
+  font-weight: 600;
+}
+#header [data-lang].is-active {
+  font-weight: 600;
 }
 .presentation-bg {
   position: relative;
   overflow: hidden;
-  background-color: rgb(239 246 255);
 }
 .presentation-bg::before {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: linear-gradient( transparent 18px, rgba(148, 163, 184, 0.14) 18px, rgba(148, 163, 184, 0.14) 19px, transparent 19px ), linear-gradient( 180deg, transparent 0%, transparent 68%, rgba(14, 165, 233, 0.08) 68%, rgba(14, 165, 233, 0.08) 69%, transparent 69% );
+  background-image: linear-gradient( transparent 18px, rgba(148, 163, 184, 0.14) 18px, rgba(148, 163, 184, 0.14) 19px, transparent 19px ), linear-gradient( 180deg, transparent 0%, transparent 68%, rgba(45, 73, 118, 0.08) 68%, rgba(45, 73, 118, 0.08) 69%, transparent 69% );
   background-size: 100% 72px, 100% 140px;
   opacity: 0.35;
   pointer-events: none;
@@ -936,7 +933,7 @@
   position: absolute;
   inset: auto 0 0 0;
   height: 5rem;
-  background: linear-gradient( 180deg, rgba(239, 246, 255, 0) 0%, rgba(255, 255, 255, 0.95) 65%, #ffffff 100% );
+  background: linear-gradient( 180deg, rgba(197, 223, 231, 0) 0%, rgba(197, 223, 231, 0.95) 65%, #C5DFE7 100% );
   pointer-events: none;
 }
 #photoPresentation {

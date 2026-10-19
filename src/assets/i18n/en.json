@@ -7,19 +7,19 @@
   },
   "header": {
     "name": "Francesco Armiento",
-    "title": "Sound Designer | Composer | Sound Engineer"
+    "title": "Sound Designer | Music Composer | Sound Engineer"
   },
   "presentation": {
     "greeting": "Welcome",
-    "description": "I'm Francesco Armiento, a passionate sound designer, composer and sound engineer. <br />Discover my projects, my skills and feel free to contact me for any collaboration.",
+    "description": "I'm Francesco Armiento, a sound designer, composer, and audio engineer. <br />This space brings together my projects and skills: explore my work, and let's find the perfect sound for your next idea.",
     "photo_alt": "Presentation photo"
   },
   "services": {
-    "title": "My Services",
-    "description": "I offer a complete range of sound design, music composition and sound engineering services to meet your creative needs.",
+    "title": "The Art and Craft of Sound",
+    "description": "I take care of every aspect of sound, combining aesthetic exploration with technical precision to give a voice to stories, images, and music.",
     "soundDesign": {
       "title": "Sound Design",
-      "description": "Sound Editing<br />Audio Effects<br />Sound effects creation<br />Sonic identity"
+      "description": "Audio editing<br />Sound effects<br />Linear and interactive sound design<br />Audio branding"
     },
     "mixing": {
       "title": "Mixing",
@@ -27,60 +27,72 @@
     },
     "composition": {
       "title": "Composition",
-      "description": "Original music<br />Arrangements<br />Custom compositions"
+      "description": "Original music<br />Arrangements<br />Film scores and soundtracks"
     },
     "engineering": {
-      "title": "Sound Engineering",
-      "description": "Professional recording<br />Audio processing<br />Audio optimization"
+      "title": "Audio Engineering",
+      "description": "Professional recording<br />Audio processing<br />Sound optimization"
     }
   },
   "portfolio": {
-    "title": "Portfolio",
-    "subtitle": "Creating immersive sound experiences in service of the image",
-    "explore": "Explore other projects",
-    "youtube": "Watch my project videos on YouTube.",
-    "soundcloud": "Listen to my compositions and sound designs on SoundCloud.",
-    "itchio": "Explore my games and projects on Itch.io."
+    "title": "Projects and Work",
+    "subtitle": "A selection of work tracing my path through acoustic research, music composition, and sound design.",
+    "explore": "Explore more projects",
+    "youtube": "Video projects and showreels",
+    "soundcloud": "Tracks and music portfolio",
+    "itchio": "Video games and interactive projects"
   },
   "skills": {
-    "title": "Skills and knowledge",
+    "title": "Skills and Knowledge",
     "skillsTitle": "Skills",
     "skillsList": [
-      "Sound Design: Sound effects creation, audio editing, sonic identity",
-      "Music composition: Original music for film, video games, advertising",
-      "Sound engineering: Recording, mixing, mastering, Dolby Atmos 5.1"
+      "Sound Design: Creating sound effects (Foley and Hard FX), audio editing, and audio branding.",
+      "Music Composition: Film scores and original music for film, video games, and advertising.",
+      "Audio Engineering: Mixing, mastering, and immersive audio mixing (Dolby Atmos and multichannel formats)."
     ],
-    "techTitle": "Technical knowledge",
+    "techTitle": "Technical Knowledge",
     "techList": [
       "Software: Pro Tools, Ableton Live, Logic Pro X, Reaper",
       "Plugins: Waves, FabFilter, iZotope, Soundtoys",
-      "Recording techniques: Microphones, field and studio recording techniques"
+      "Recording Techniques: Advanced microphone techniques, studio recording, and field recording."
     ]
   },
   "contact": {
-    "cta": "Have a project in mind? Let's discuss it",
-    "button": "Leave me a message"
+    "cta": "Have a project in mind? Let's talk.",
+    "button": "Contact me"
   },
-    "project1": {
-      "title": "Project 1",
-      "description": "Project 1 description. A sound design project for a video game."
-    },
-    "project2": {
-      "title": "Project 2",
-      "description": "Project 2 description. A music composition project for a film."
-    },
-    "project3": {
-      "title": "Project 3",
-      "description": "Project 3 description. A recording project for a musical group"
-    },
+  "project1": {
+    "title": "Pulse",
+    "description": "A three-part audiovisual journey connected by a single beat. Sound design and composition created in Ableton Live, combining field recordings and sound synthesis. Mixed in Reaper and released in immersive 10.1 multichannel format."
+  },
+  "project2": {
+    "title": "Fréquences Félines",
+    "description": "Fréquences Félines is a radio show where cats take the microphone to share their view of the world."
+  },
+  "project3": {
+    "title": "Tout est sous contrôle",
+    "description": "Complete studio audio production (recording, mixing, and mastering) for the track \"Tout est sous contrôle\" by Madruga. An evocative acoustic piece featuring guitar, piano, cajón, and cello, composed for the environmentally themed stage production \"Le point de bascule.\""
+  },
+  "project4": {
+    "title": "Twin Sides",
+    "description": "A short gameplay preview of Twin Sides, a first-person puzzle game developed with Cularo Games for Brackeys Game Jam 2026.1."
+  },
+  "project5": {
+    "title": "Tales of Yro",
+    "description": "The main menu theme for Tales of Yro, a video game currently in development. The original score and arrangement were created for an academic project in collaboration with the Studio M team."
+  },
+  "project6": {
+    "title": "DeadHand",
+    "description": "Original score and main theme for the video game DeadHand, composed entirely in just 48 hours for the Global Game Jam. A fast-paced, impactful composition designed to capture the essence and rhythm of the game."
+  },
   "about": {
-    "title": "About",
-    "description1": "Lorem, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque.",
-    "description2": "I have worked on a variety of projects, from small independent games to large-scale film productions. My creative approach and ability to collaborate closely with development teams allow me to create immersive sound experiences that enhance the emotional and narrative impact of each project.",
-    "description3": "I master a complete range of tools and techniques for sound creation and post-production. From music composition to advanced sound manipulation, I am able to meet the most demanding requirements of each project.",
+    "title": "About Me",
+    "description1": "As a teenager, electronic music opened the door to an unexplored universe. I started out as a DJ, spending hours studying song structures, groove, and the impact of sound on people. Before long, playing other people's music was no longer enough: I felt the need to create. I realized that sound is more than music; it's a powerful storytelling tool that can make any visual or interactive experience memorable. That realization led me to turn my passion into a career and to invest independently and determinedly in my professional training.",
+    "description2": "I've worked on a wide range of projects, from independent video games and studio music productions to live concerts and music for visual media. My approach combines creative sensitivity with close collaboration with development teams to create immersive sound experiences that amplify the emotional and narrative impact of each work. Through sonic exploration, attention to detail, and experimentation, I strive to give every project a distinctive sound identity that leaves a lasting impression.",
+    "description3": "I work across every stage of audio production, from music composition and recording to sound design and post-production. I experiment with a range of tools and techniques to find the solution that best fits each project's identity. Whether I'm creating an atmosphere, shaping the character of a sound, or refining the final mix, I focus on every detail to stay true to the creative vision and needs of the project.",
     "contact": {
-      "cta": "Have a project in mind? Let's discuss it! I am listening to your needs to offer you the best sound and musical solutions",
-      "button": "Leave me a message"
+      "cta": "Have a project in mind? Let's talk! I'm here to understand your needs and find the sound and music solutions that work best for you.",
+      "button": "Contact me"
     }
   }
 }
