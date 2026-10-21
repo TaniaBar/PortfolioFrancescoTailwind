@@ -1,67 +1,140 @@
 <!doctype html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
-</head>
-<body>
-  <footer class="bg-gray-800 text-white py-8">
-    <!-- Link section -->
-    <div class="max-w-6xl mx-auto px-6">
-      <div class="flex flex-col md:flex-row justify-between items-center">
-        <div class="mb-4 md:mb-0">
-          <a href="./index.html" class="text-white hover:text-gray-300 transition">Accueil</a>
-        </div>
-        <div class="mb-4 md:mb-0">
-          <a href="./portfolio.html" class="text-white hover:text-gray-300 transition">Portfolio</a>
-        </div>
-        <div class="mb-4 md:mb-0">
-          <a href="./about.html" class="text-white hover:text-gray-300 transition">À propos</a>
-        </div>
-        <div class="mb-4 md:mb-0">
-          <a href="./contact.html" class="text-white hover:text-gray-300 transition">Contact</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <footer class="bg-gray-800 text-white py-8">
+      <!-- Link section -->
+      <div class="max-w-6xl mx-auto px-6">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <div class="mb-4 md:mb-0">
+            <a
+              href="./index.html"
+              class="text-white hover:text-gray-300 transition"
+              data-i18n="footer.home"
+              >Accueil</a
+            >
+          </div>
+          <div class="mb-4 md:mb-0">
+            <a
+              href="./portfolio.html"
+              class="text-white hover:text-gray-300 transition"
+              data-i18n="footer.portfolio"
+              >Portfolio</a
+            >
+          </div>
+          <div class="mb-4 md:mb-0">
+            <a
+              href="./about.html"
+              class="text-white hover:text-gray-300 transition"
+              data-i18n="footer.about"
+              >À propos</a
+            >
+          </div>
+          <div class="mb-4 md:mb-0">
+            <a
+              href="./contact.html"
+              class="text-white hover:text-gray-300 transition"
+              data-i18n="footer.contact"
+              >Contact</a
+            >
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Social media section -->
-    <div class="max-w-6xl mx-auto px-6 mt-6">
-      <div class="flex flex-row md:flex-row justify-between items-center">
-        <!-- LinkedIn -->
-        <a href="https://www.linkedin.com/in/francesco-armiento-aa15b3337/" target="_blank" class="text-white hover:text-gray-300 transition">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="size-5">
-            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11.75 20h-2.25v-10h2.25v10zm-1.125-11.25c-.721 0-1.125-.479-1.125-1.075s.404-1.075 1.125-1.075c.721 0 1.125.479 1.125 1.075s-.404 1.075-1.125 1.075zm12.875 11.25h-2.25v-4.75c0-1.133-.021-2.593-1.581-2.593s-1.825 1.237-1.825 2.513v4.83h-2.25v-10h2.156v1.367h.031c.301-.571 1.037-1.175 2.136-1.175s2.538 1.037 2.538 3v6z"/>
-          </svg>
-        </a>
-        <!-- SoundCloud -->
-        <a href="https://soundcloud.com/francesco-armiento23" target="_blank" class="text-white hover:text-gray-300 transition">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 30 30" class="size-5">
-            <path d="M14.45 11.0875V21.25H25.4C27.7125 21.0875 28.75 19.6625 28.75 17.9125C28.75 16.0625 27.35 14.575 25.475 14.575C25 14.575 24.6 14.675 24.1875 14.85C23.8875 11.925 21.4 9.63745 18.3375 9.63745C16.875 9.63745 15.4875 10.1875 14.45 11.0875ZM13.35 12.3625C12.975 12.1375 12.575 11.9625 12.1375 11.875V21.25H13.875V11.675C13.6875 11.875 13.5125 12.125 13.35 12.3625ZM10.4125 11.6875V21.25H11.5625V11.725C11.325 11.6875 11.0875 11.675 10.8375 11.675C10.6875 11.675 10.55 11.675 10.4125 11.6875ZM8.125 12.5V21.25H9.2625V11.925C8.85 12.0625 8.4625 12.2625 8.125 12.5ZM6.0375 15.625C5.9625 15.625 5.8875 15.55 5.8 15.5125V21.25H6.95V13.575C6.4875 14.175 6.175 14.8875 6.0375 15.625ZM3.4875 15.275V21.1375C3.75 21.2125 4.05 21.25 4.375 21.25H4.65V15.175C4.55 15.1625 4.45 15.15 4.375 15.15C4.05 15.15 3.75 15.2 3.4875 15.275ZM1.25 18.2C1.25 19.1375 1.675 19.9625 2.3375 20.525V15.8875C1.675 16.4375 1.25 17.275 1.25 18.2Z"/>
-          </svg>
-        </a>
-     
-        <!-- Youtube -->
-        <a href="https://www.youtube.com/@FrancescoArmiento-SoundDesign" target="_blank" class="text-white hover:text-gray-300 transition">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 30" class="size-5">
-            <path d="M15 6.25C26.25 6.25 26.25 6.25 26.25 15C26.25 23.75 26.25 23.75 15 23.75C3.75 23.75 3.75 23.75 3.75 15C3.75 6.25 3.75 6.25 15 6.25Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M12.5 10.625L20 15L12.5 19.375V10.625Z" fill="currentColor"/>
-          </svg>
-        </a>
-        <!-- Itch -->
-        <a href="https://cix-fasound.itch.io/" target="_blank" class="text-white hover:text-gray-300 transition">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 30" class="size-5">
-            <path d="M6.37031 4.63125C5.35312 5.23594 3.34688 7.5375 3.32812 8.14219V9.14063C3.32812 10.4109 4.51406 11.5219 5.5875 11.5219C6.88125 11.5219 7.95469 10.4531 7.95469 9.17813C7.95469 10.4484 8.99531 11.5219 10.2891 11.5219C11.5828 11.5219 12.5859 10.4531 12.5859 9.17813C12.5859 10.4484 13.6922 11.5219 14.9859 11.5219H15.0094C16.3031 11.5219 17.4094 10.4531 17.4094 9.17813C17.4094 10.4484 18.4172 11.5219 19.7063 11.5219C20.9953 11.5219 22.0406 10.4531 22.0406 9.17813C22.0406 10.4484 23.1188 11.5219 24.4078 11.5219C25.4859 11.5219 26.6719 10.4063 26.6719 9.14063V8.14219C26.6531 7.5375 24.6469 5.23125 23.6297 4.62656C20.4703 4.51875 18.2766 4.5 15.0047 4.5C11.7328 4.5 7.27031 4.55156 6.37031 4.63125ZM12.5719 10.9313C11.5406 12.7313 8.92031 12.7453 7.89375 10.9406C7.275 12.0234 5.86875 12.4453 5.26875 12.2391C5.08594 14.1234 4.62656 23.3531 6.09844 24.8578C9.84844 25.7344 20.2594 25.7063 23.9016 24.8578C25.3828 23.3438 24.9 13.9828 24.7313 12.2391C24.1266 12.4453 22.7203 12.0234 22.1063 10.9406C21.075 12.7453 18.4594 12.7266 17.4281 10.9313C17.0953 11.5172 16.35 12.2859 15 12.2859C14.5125 12.3 14.025 12.1828 13.5984 11.9438C13.1719 11.7047 12.8156 11.3531 12.5719 10.9313ZM10.6219 13.4531C11.3953 13.4531 12.0797 13.4531 12.9281 14.3813C14.3016 14.2406 15.6891 14.2406 17.0625 14.3813C17.9156 13.4578 18.6 13.4578 19.3688 13.4578C21.8203 13.4578 22.425 17.0906 23.3016 20.2266C24.1125 23.1422 23.0438 23.2125 21.7078 23.2125C19.7344 23.1375 18.6375 21.7031 18.6375 20.2688C16.7953 20.5688 13.8609 20.6813 11.3438 20.2688C11.3438 21.7031 10.2516 23.1375 8.27344 23.2125C6.94219 23.2078 5.87344 23.1375 6.68438 20.2266C7.56094 17.0859 8.16563 13.4578 10.6172 13.4578V13.4531H10.6219ZM15 15.6938C15 15.6938 12.9188 17.6063 12.5438 18.2813L13.9031 18.225V19.4109C13.9031 19.4813 14.9016 19.4203 14.9953 19.4203C15.5391 19.4438 16.0875 19.4672 16.0875 19.4109V18.225L17.4469 18.2813C17.0719 17.6016 14.9906 15.6938 14.9906 15.6938H14.9953H15Z" fill="currentColor"/>
-          </svg>
-        </a>
-    </div>   
+      <!-- Social media section -->
+      <div class="max-w-6xl mx-auto px-6 mt-6">
+        <div class="flex flex-row md:flex-row justify-between items-center">
+          <!-- LinkedIn -->
+          <a
+            href="https://www.linkedin.com/in/francesco-armiento-aa15b3337/"
+            target="_blank"
+            class="text-white hover:text-gray-300 transition"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              class="size-5"
+            >
+              <path
+                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11.75 20h-2.25v-10h2.25v10zm-1.125-11.25c-.721 0-1.125-.479-1.125-1.075s.404-1.075 1.125-1.075c.721 0 1.125.479 1.125 1.075s-.404 1.075-1.125 1.075zm12.875 11.25h-2.25v-4.75c0-1.133-.021-2.593-1.581-2.593s-1.825 1.237-1.825 2.513v4.83h-2.25v-10h2.156v1.367h.031c.301-.571 1.037-1.175 2.136-1.175s2.538 1.037 2.538 3v6z"
+              />
+            </svg>
+          </a>
+          <!-- SoundCloud -->
+          <a
+            href="https://soundcloud.com/francesco-armiento23"
+            target="_blank"
+            class="text-white hover:text-gray-300 transition"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 30 30"
+              class="size-5"
+            >
+              <path
+                d="M14.45 11.0875V21.25H25.4C27.7125 21.0875 28.75 19.6625 28.75 17.9125C28.75 16.0625 27.35 14.575 25.475 14.575C25 14.575 24.6 14.675 24.1875 14.85C23.8875 11.925 21.4 9.63745 18.3375 9.63745C16.875 9.63745 15.4875 10.1875 14.45 11.0875ZM13.35 12.3625C12.975 12.1375 12.575 11.9625 12.1375 11.875V21.25H13.875V11.675C13.6875 11.875 13.5125 12.125 13.35 12.3625ZM10.4125 11.6875V21.25H11.5625V11.725C11.325 11.6875 11.0875 11.675 10.8375 11.675C10.6875 11.675 10.55 11.675 10.4125 11.6875ZM8.125 12.5V21.25H9.2625V11.925C8.85 12.0625 8.4625 12.2625 8.125 12.5ZM6.0375 15.625C5.9625 15.625 5.8875 15.55 5.8 15.5125V21.25H6.95V13.575C6.4875 14.175 6.175 14.8875 6.0375 15.625ZM3.4875 15.275V21.1375C3.75 21.2125 4.05 21.25 4.375 21.25H4.65V15.175C4.55 15.1625 4.45 15.15 4.375 15.15C4.05 15.15 3.75 15.2 3.4875 15.275ZM1.25 18.2C1.25 19.1375 1.675 19.9625 2.3375 20.525V15.8875C1.675 16.4375 1.25 17.275 1.25 18.2Z"
+              />
+            </svg>
+          </a>
 
-    <!-- Droit section -->
-    <div class="max-w-6xl mx-auto px-6">
-      <p class="text-center mt-6 text-xs">
-        &copy; 2026 Francesco Armiento. Tous droits réservés.
-      </p>
-    </div>
-  </footer>
-</body>
+          <!-- Youtube -->
+          <a
+            href="https://www.youtube.com/@FrancescoArmiento-SoundDesign"
+            target="_blank"
+            class="text-white hover:text-gray-300 transition"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 30 30"
+              class="size-5"
+            >
+              <path
+                d="M15 6.25C26.25 6.25 26.25 6.25 26.25 15C26.25 23.75 26.25 23.75 15 23.75C3.75 23.75 3.75 23.75 3.75 15C3.75 6.25 3.75 6.25 15 6.25Z"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M12.5 10.625L20 15L12.5 19.375V10.625Z"
+                fill="currentColor"
+              />
+            </svg>
+          </a>
+          <!-- Itch -->
+          <a
+            href="https://cix-fasound.itch.io/"
+            target="_blank"
+            class="text-white hover:text-gray-300 transition"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 30 30"
+              class="size-5"
+            >
+              <path
+                d="M6.37031 4.63125C5.35312 5.23594 3.34688 7.5375 3.32812 8.14219V9.14063C3.32812 10.4109 4.51406 11.5219 5.5875 11.5219C6.88125 11.5219 7.95469 10.4531 7.95469 9.17813C7.95469 10.4484 8.99531 11.5219 10.2891 11.5219C11.5828 11.5219 12.5859 10.4531 12.5859 9.17813C12.5859 10.4484 13.6922 11.5219 14.9859 11.5219H15.0094C16.3031 11.5219 17.4094 10.4531 17.4094 9.17813C17.4094 10.4484 18.4172 11.5219 19.7063 11.5219C20.9953 11.5219 22.0406 10.4531 22.0406 9.17813C22.0406 10.4484 23.1188 11.5219 24.4078 11.5219C25.4859 11.5219 26.6719 10.4063 26.6719 9.14063V8.14219C26.6531 7.5375 24.6469 5.23125 23.6297 4.62656C20.4703 4.51875 18.2766 4.5 15.0047 4.5C11.7328 4.5 7.27031 4.55156 6.37031 4.63125ZM12.5719 10.9313C11.5406 12.7313 8.92031 12.7453 7.89375 10.9406C7.275 12.0234 5.86875 12.4453 5.26875 12.2391C5.08594 14.1234 4.62656 23.3531 6.09844 24.8578C9.84844 25.7344 20.2594 25.7063 23.9016 24.8578C25.3828 23.3438 24.9 13.9828 24.7313 12.2391C24.1266 12.4453 22.7203 12.0234 22.1063 10.9406C21.075 12.7453 18.4594 12.7266 17.4281 10.9313C17.0953 11.5172 16.35 12.2859 15 12.2859C14.5125 12.3 14.025 12.1828 13.5984 11.9438C13.1719 11.7047 12.8156 11.3531 12.5719 10.9313ZM10.6219 13.4531C11.3953 13.4531 12.0797 13.4531 12.9281 14.3813C14.3016 14.2406 15.6891 14.2406 17.0625 14.3813C17.9156 13.4578 18.6 13.4578 19.3688 13.4578C21.8203 13.4578 22.425 17.0906 23.3016 20.2266C24.1125 23.1422 23.0438 23.2125 21.7078 23.2125C19.7344 23.1375 18.6375 21.7031 18.6375 20.2688C16.7953 20.5688 13.8609 20.6813 11.3438 20.2688C11.3438 21.7031 10.2516 23.1375 8.27344 23.2125C6.94219 23.2078 5.87344 23.1375 6.68438 20.2266C7.56094 17.0859 8.16563 13.4578 10.6172 13.4578V13.4531H10.6219ZM15 15.6938C15 15.6938 12.9188 17.6063 12.5438 18.2813L13.9031 18.225V19.4109C13.9031 19.4813 14.9016 19.4203 14.9953 19.4203C15.5391 19.4438 16.0875 19.4672 16.0875 19.4109V18.225L17.4469 18.2813C17.0719 17.6016 14.9906 15.6938 14.9906 15.6938H14.9953H15Z"
+                fill="currentColor"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Droit section -->
+      <div class="max-w-6xl mx-auto px-6">
+        <p class="text-center mt-6 text-xs">
+          &copy; 2026 Francesco Armiento. Tous droits réservés.
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>

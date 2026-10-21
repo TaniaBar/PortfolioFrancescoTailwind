@@ -8,37 +8,39 @@
 <body>
 <script src="./assets/js/i18n.js"></script>
 <header class="w-full border-b border-gray-200 bg-white">
-  <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+  <div class="max-w-6xl mx-auto px-6 py-4 grid grid-cols-3 items-center relative">
     
     <!-- Logo  -->
-    <div id="header-logo" class="h-14 w-14 shrink-0">
+    <div id="header-logo" class="h-10 w-full">
       <a href="./index.html" class="text-gray-800 hover:text-gray-600 transition">
-        <img src="./assets/images/logoCix.jpeg" alt="Logo Francesco Armiento" class="h-14 w-14 rounded-full border border-gray-300 object-cover"/>
+        <img src="./assets/images/logoCix.jpeg" alt="Logo Francesco Armiento" class="h-10 w-10 rounded-full border border-gray-300 object-cover"/>
       </a>
     </div>
 
-    <!-- Burger Menu & Language Selector -->
-    <div class="flex items-center gap-4">
-      <!-- Language Selector -->
-      <div class="flex gap-2 text-sm">
+    <!-- Language Selector -->
+    <div class="flex items-center justify-center">
+      <div id="language-selector" class="flex gap-2 text-sm">
         <button data-lang="fr" aria-pressed="false" class="px-2 py-1 rounded">FR</button>
         <button data-lang="it" aria-pressed="false" class="px-2 py-1 rounded">IT</button>
         <button data-lang="en" aria-pressed="false" class="px-2 py-1 rounded">EN</button>
       </div>
 
+    </div>
+
+    <div class="flex items-center justify-end gap-8">
       <button id="menu-btn" class="text-gray-800 hover:text-gray-600 transition md:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
       </button>
-    </div>
 
-    <!-- Desktop Menu -->
-    <nav class="hidden md:flex gap-8 text-sm font-medium">
-      <a href="./index.html" class="hover:text-blue-800" data-i18n="nav.home">Accueil</a>
-      <a href="./portfolio.html" class="hover:text-blue-800" data-i18n="nav.portfolio">Portfolio</a>
-      <a href="./about.html" class="hover:text-blue-800" data-i18n="nav.about">À propos</a>
-    </nav>
+      <!-- Desktop Menu -->
+      <nav class="hidden md:flex gap-8 text-sm font-medium">
+        <a href="./index.html" class="hover:text-blue-800" data-i18n="nav.home">Accueil</a>
+        <a href="./portfolio.html" class="hover:text-blue-800" data-i18n="nav.portfolio">Portfolio</a>
+        <a href="./about.html" class="hover:text-blue-800" data-i18n="nav.about">À propos</a>
+      </nav>
+    </div>
 
   </div>
 

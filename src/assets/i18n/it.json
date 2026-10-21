@@ -5,24 +5,30 @@
     "about": "Chi sono",
     "contact": "Contatti"
   },
+  "footer": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "about": "Chi sono",
+    "contact": "Contatti"
+  },
   "header": {
     "name": "Francesco Armiento",
     "title": "Sound Designer | Music Composer | Tecnico del suono"
   },
   "presentation": {
     "greeting": "Benvenuto",
-    "description": "Sono Francesco Armiento, sound designer, compositore e audio engineer. <br />Questo spazio raccoglie i miei progetti e le mie competenze: esplora i miei lavori e troviamo insieme la dimensione sonora perfetta per la tua prossima idea.",
+    "description": "Ciao, sono Francesco.</br>Dietro questo portfolio ci sono io: un Sound Designer, Music Composer e Tecnico del Suono. <br />Ho da poco concluso il mio percorso formativo diplomandomi a Studio M a Grenoble, un'esperienza intensa che ha consolidato il mio metodo di lavoro tra studio, live e sound design.</br> In questo spazio ho raccolto i lavori che hanno segnato il mio percorso finora. Ti invito ad ascoltare e guardare  i miei progetti.",
     "photo_alt": "Foto di presentazione"
   },
   "services": {
     "title": "L'arte e la tecnica del suono",
-    "description": "Curo ogni aspetto della dimensione sonora, combinando ricerca estetica e precisione tecnica per dare voce a storie, immagini e musica.",
+    "description": "Lavoro sul suono fondendo tecnica e creatività,  per dare un'identità e un'atmosfera profonda a ogni traccia o immagine.",
     "soundDesign": {
       "title": "Sound Design",
       "description": "Montaggio audio<br />Effetti sonori<br />Sound design lineare e interattivo<br />Audio branding"
     },
     "mixing": {
-      "title": "Mixaggio",
+      "title": "Audio Engineering",
       "description": "Mixaggio audio<br />Mastering<br />Post-produzione sonora"
     },
     "composition": {
@@ -30,7 +36,7 @@
       "description": "Musica originale<br />Arrangiamenti<br />Colonna sonora e sonorizzazioni"
     },
     "engineering": {
-      "title": "Audio Engineering",
+      "title": "Tecniche di ripresa",
       "description": "Registrazione professionale<br />Elaborazione audio<br />Ottimizzazione sonora"
     }
   },
@@ -48,13 +54,13 @@
     "skillsList": [
       "Sound Design: Creazione di effetti sonori (Foley & Hard FX), montaggio audio e audio branding.",
       "Composizione musicale: Colonne sonore e musica originale per film, videogiochi e spot pubblicitari.",
-      "Audio Engineering: Mixaggio, mastering e missaggio audio immersivo (Dolby Atmos, configurazioni multicanale)."
+      "Audio Engineering: Mixaggio, mastering e mixaggio audio immersivo (Dolby Atmos, configurazioni multicanale)."
     ],
     "techTitle": "Conoscenze tecniche",
     "techList": [
       "Software: Pro Tools, Ableton Live, Logic Pro X, Reaper",
       "Plugin: Waves, FabFilter, iZotope, Soundtoys",
-      "Tecniche di ripresa: Tecniche microfoniche avanzate, registrazione in studio e field recording (presa diretta)."
+      "Ripresa & Audio Live: Configurazioni e posizionamento microfonico in studio e field recording. Allestimento tecnico, gestione del palco e cablaggio."
     ]
   },
   "contact": {
@@ -91,7 +97,7 @@
     "description2": "Ho collaborato a una grande varietà di progetti, dai videogiochi indipendenti alle produzioni musicali in studio, fino ai concerti live e alla musica applicata alle immagini. Il mio approccio unisce sensibilità creativa e una stretta sinergia con i team di sviluppo, con l'obiettivo di dare vita a esperienze sonore immersive che amplificano l'impatto emotivo e narrativo di ogni opera. Attraverso la ricerca timbrica, la cura del dettaglio e la sperimentazione, cerco di dare a ogni progetto una propria identità sonora, capace di lasciare un'impressione duratura.",
     "description3": "Seguo ogni fase della produzione audio, dalla composizione musicale alla registrazione, fino al sound design e alla post-produzione. Lavoro sul suono sperimentando con strumenti e tecniche diverse, cercando ogni volta la soluzione più adatta all'identità del progetto. Che si tratti di creare un'atmosfera, definire il carattere di un suono o rifinire il mix finale, curo ogni dettaglio per ottenere un risultato coerente con la visione creativa e le esigenze del progetto.",
     "contact": {
-      "cta": "Hai un progetto in mente? Parliamone! Sono in ascolto delle tue esigenze per proporti le migliori soluzioni sonore e musicali",
+      "cta": "Hai un progetto in mente? Parliamone!",
       "button": "Contattami"
     }
   }

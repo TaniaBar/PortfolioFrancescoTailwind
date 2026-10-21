@@ -5,6 +5,12 @@
     "about": "About",
     "contact": "Contact"
   },
+  "footer": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "contact": "Contact"
+  },
   "header": {
     "name": "Francesco Armiento",
     "title": "Sound Designer | Music Composer | Sound Engineer"
@@ -22,7 +28,7 @@
       "description": "Audio editing<br />Sound effects<br />Linear and interactive sound design<br />Audio branding"
     },
     "mixing": {
-      "title": "Mixing",
+      "title": "Audio Engineering",
       "description": "Audio mixing<br />Mastering<br />Sound post-production"
     },
     "composition": {
@@ -30,7 +36,7 @@
       "description": "Original music<br />Arrangements<br />Film scores and soundtracks"
     },
     "engineering": {
-      "title": "Audio Engineering",
+      "title": "Recording Techniques",
       "description": "Professional recording<br />Audio processing<br />Sound optimization"
     }
   },
@@ -54,7 +60,7 @@
     "techList": [
       "Software: Pro Tools, Ableton Live, Logic Pro X, Reaper",
       "Plugins: Waves, FabFilter, iZotope, Soundtoys",
-      "Recording Techniques: Advanced microphone techniques, studio recording, and field recording."
+      "Recording & Live Audio: Studio microphone setup and placement, plus field recording. Technical setup, stage management, and cabling."
     ]
   },
   "contact": {
@@ -91,7 +97,7 @@
     "description2": "I've worked on a wide range of projects, from independent video games and studio music productions to live concerts and music for visual media. My approach combines creative sensitivity with close collaboration with development teams to create immersive sound experiences that amplify the emotional and narrative impact of each work. Through sonic exploration, attention to detail, and experimentation, I strive to give every project a distinctive sound identity that leaves a lasting impression.",
     "description3": "I work across every stage of audio production, from music composition and recording to sound design and post-production. I experiment with a range of tools and techniques to find the solution that best fits each project's identity. Whether I'm creating an atmosphere, shaping the character of a sound, or refining the final mix, I focus on every detail to stay true to the creative vision and needs of the project.",
     "contact": {
-      "cta": "Have a project in mind? Let's talk! I'm here to understand your needs and find the sound and music solutions that work best for you.",
+      "cta": "Have a project in mind? Let's talk!",
       "button": "Contact me"
     }
   }

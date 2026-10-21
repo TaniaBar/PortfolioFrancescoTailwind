@@ -12,9 +12,9 @@
 <body>
   <div id="header"></div>
   <div id="portfolio" class="presentation-bg">
-    <div class="max-w-6xl mx-auto px-6 py-12">
+    <div class="max-w-6xl mx-auto px-6 pt-12">
       <h1 class="text-3xl font-bold text-center mb-8 uppercase" data-i18n="portfolio.title">Portfolio</h1>
-      <p class="text-gray-600 text-center mb-12" data-i18n="portfolio.subtitle">Créer des expériences sonores immersives au service de l'image</p>
+      <p class="text-gray-600 text-center mb-4" data-i18n="portfolio.subtitle">Créer des expériences sonores immersives au service de l'image</p>
     </div>
 
     <!-- Section avec 3 projets -->
@@ -267,6 +267,7 @@
         const footer = document.createElement("div");
         footer.innerHTML = data;
         document.body.appendChild(footer);
+        i18n.setLanguage(i18n.getLanguage());
       });
 
   </script>
