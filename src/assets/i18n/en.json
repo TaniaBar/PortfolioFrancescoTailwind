@@ -9,7 +9,8 @@
     "home": "Home",
     "portfolio": "Portfolio",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "copyright": "© 2026 Francesco Armiento. All rights reserved."
   },
   "header": {
     "name": "Francesco Armiento",
@@ -17,7 +18,7 @@
   },
   "presentation": {
     "greeting": "Welcome",
-    "description": "I'm Francesco Armiento, a sound designer, composer, and audio engineer. <br />This space brings together my projects and skills: explore my work, and let's find the perfect sound for your next idea.",
+    "description": "Hi, I'm Francesco!</br> I am a sound designer, music composer, and sound engineer. </br>Having recently graduated from Studio M in Grenoble, this intense experience has solidified my workflow across studio, live, and sound design environments. I've gathered here the projects that have shaped my journey so far. </br> I invite you to explore, watch, and listen to my work.",
     "photo_alt": "Presentation photo"
   },
   "services": {
@@ -25,7 +26,7 @@
     "description": "I take care of every aspect of sound, combining aesthetic exploration with technical precision to give a voice to stories, images, and music.",
     "soundDesign": {
       "title": "Sound Design",
-      "description": "Audio editing<br />Sound effects<br />Linear and interactive sound design<br />Audio branding"
+      "description": "Audio editing<br />Sound effect<br />Linear and interactive sound design<br />Audio branding"
     },
     "mixing": {
       "title": "Audio Engineering",
@@ -33,7 +34,7 @@
     },
     "composition": {
       "title": "Composition",
-      "description": "Original music<br />Arrangements<br />Film scores and soundtracks"
+      "description": "Original music<br />Arrangement<br />Film score and soundtrack"
     },
     "engineering": {
       "title": "Recording Techniques",
@@ -41,7 +42,7 @@
     }
   },
   "portfolio": {
-    "title": "Projects and Work",
+    "title": "My Work",
     "subtitle": "A selection of work tracing my path through acoustic research, music composition, and sound design.",
     "explore": "Explore more projects",
     "youtube": "Video projects and showreels",

@@ -865,6 +865,7 @@ body :is(h1, h2, h3, h4, h5, h6) {
   color: #2d4976;
 }
 .about-page p {
+  font-size: 1.0625rem;
   line-height: 1.8;
 }
 .text-gray-600, .text-gray-700, .text-slate-700, .text-slate-900 {
@@ -977,6 +978,12 @@ a[href^="mailto:"] {
   background: linear-gradient( 180deg, rgba(197, 223, 231, 0) 0%, rgba(197, 223, 231, 0.95) 65%, #c5dfe7 100% );
   pointer-events: none;
 }
+
+#portfolio > div {
+  position: relative;
+  z-index: 1;
+}
+
 #photoPresentation {
   overflow: hidden;
 }

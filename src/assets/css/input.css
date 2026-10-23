@@ -20,6 +20,7 @@ body :is(h1, h2, h3, h4, h5, h6) {
 }
 
 .about-page p {
+  font-size: 1.0625rem;
   line-height: 1.8;
 }
 
@@ -191,6 +192,11 @@ a[href^="mailto:"] {
     #c5dfe7 100%
   );
   pointer-events: none;
+}
+
+#portfolio > div {
+  position: relative;
+  z-index: 1;
 }
 
 #photoPresentation {
