@@ -53,15 +53,15 @@
     "title": "Skills and Knowledge",
     "skillsTitle": "Skills",
     "skillsList": [
-      "Sound Design: Creating sound effects (Foley and Hard FX), audio editing, and audio branding.",
-      "Music Composition: Film scores and original music for film, video games, and advertising.",
-      "Audio Engineering: Mixing, mastering, and immersive audio mixing (Dolby Atmos and multichannel formats)."
+      "Sound Design: Creating sound effects (Foley and Hard FX), audio editing, and audio branding",
+      "Music Composition: Film scores and original music for film, video games, and advertising",
+      "Audio Engineering: Mixing, mastering, and immersive audio mixing (Dolby Atmos and multichannel formats)"
     ],
     "techTitle": "Technical Knowledge",
     "techList": [
       "Software: Pro Tools, Ableton Live, Logic Pro X, Reaper",
       "Plugins: Waves, FabFilter, iZotope, Soundtoys",
-      "Recording & Live Audio: Studio microphone setup and placement, plus field recording. Technical setup, stage management, and cabling."
+      "Recording & Live Audio: Studio microphone setup and placement, as well as field recording. Technical setup, cabling and stage management for live events and concerts"
     ]
   },
   "contact": {
@@ -70,7 +70,7 @@
   },
   "project1": {
     "title": "Pulse",
-    "description": "A three-part audiovisual journey connected by a single beat. Sound design and composition created in Ableton Live, combining field recordings and sound synthesis. Mixed in Reaper and released in immersive 10.1 multichannel format."
+    "description": "A three-part audiovisual journey connected by a single beat. Featuring sound design and composition crafted in Ableton Live, this project combines field recordings and sound synthesis. Mixed in Reaper, it was released in an immersive 10.1 multichannel format."
   },
   "project2": {
     "title": "Fréquences Félines",
@@ -94,9 +94,9 @@
   },
   "about": {
     "title": "About Me",
-    "description1": "As a teenager, electronic music opened the door to an unexplored universe. I started out as a DJ, spending hours studying song structures, groove, and the impact of sound on people. Before long, playing other people's music was no longer enough: I felt the need to create. I realized that sound is more than music; it's a powerful storytelling tool that can make any visual or interactive experience memorable. That realization led me to turn my passion into a career and to invest independently and determinedly in my professional training.",
-    "description2": "I've worked on a wide range of projects, from independent video games and studio music productions to live concerts and music for visual media. My approach combines creative sensitivity with close collaboration with development teams to create immersive sound experiences that amplify the emotional and narrative impact of each work. Through sonic exploration, attention to detail, and experimentation, I strive to give every project a distinctive sound identity that leaves a lasting impression.",
-    "description3": "I work across every stage of audio production, from music composition and recording to sound design and post-production. I experiment with a range of tools and techniques to find the solution that best fits each project's identity. Whether I'm creating an atmosphere, shaping the character of a sound, or refining the final mix, I focus on every detail to stay true to the creative vision and needs of the project.",
+    "description1": "As a teenager, electronic music opened the door to an unexplored universe. I started out as a DJ, spending hours studying song structures, groove, and the impact of sound on people. Before long, playing other people's music was no longer enough: I felt the need to create. I realized that sound is more than music; it's a powerful storytelling tool that can make any visual or interactive experience memorable. That realization inspired me to turn my passion into a career and to fully invest in my professional training with independence and determination.",
+    "description2": "I've worked on a wide range of projects, from independent video games and studio music productions to live concerts and music for visual media. My approach combines creative sensitivity with close collaboration with development teams to deliver immersive sound experiences that amplify the emotional and narrative impact of each work. Through sonic exploration, attention to detail, and experimentation, I strive to give every project a distinctive sound identity that leaves a lasting impression.",
+    "description3": "I work across all stages of audio production, from music composition and recording to sound design and post-production. I experiment with a range of tools and techniques to find the solution that best suits each project's identity. Whether I'm creating an atmosphere, shaping the character of a sound, or refining the final mix, I focus on every detail to stay true to the creative vision and needs of the project. ",
     "contact": {
       "cta": "Have a project in mind? Let's talk!",
       "button": "Contact me"
