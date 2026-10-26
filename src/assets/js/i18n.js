@@ -11,7 +11,7 @@ class I18n {
     const languages = ["fr", "it", "en"];
 
     for (const lang of languages) {
-      const response = await fetch(`./assets/i18n/${lang}.json`);
+      const response = await fetch(`./src/assets/i18n/${lang}.json`);
       this.translations[lang] = await response.json();
     }
 

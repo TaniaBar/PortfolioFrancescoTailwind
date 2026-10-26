@@ -6,8 +6,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@1,300&family=Space+Grotesk:wght@600&display=swap" rel="stylesheet">
-  <link href="./assets/css/output.css" rel="stylesheet" />
-  <script src="./assets/js/i18n.js"></script>
+  <link href="./src/assets/css/output.css" rel="stylesheet" />
+  <script src="./src/assets/js/i18n.js"></script>
 </head>
 <body>
   <div id="header"></div>
@@ -104,19 +104,19 @@
     <div class="flex flex-wrap justify-center gap-x-16 gap-y-8 md:gap-x-28">
       <div class="text-center">
         <a href="https://www.youtube.com/@FrancescoArmiento-SoundDesign" target="_blank">
-          <img src="./assets/images/line-md_youtube.svg" alt="YouTube" class="w-16 h-16 mx-auto mb-2"/>
+          <img src="./src/assets/images/line-md_youtube.svg" alt="YouTube" class="w-16 h-16 mx-auto mb-2"/>
         </a>
         <p class="text-gray-600 text-sm" data-i18n="portfolio.youtube">Regardez mes vidéos de projets sur YouTube.</p>
       </div>
       <div class="text-center">
         <a href="https://soundcloud.com/francesco-armiento23" target="_blank">
-          <img src="./assets/images/mdi_soundcloud.svg" alt="SoundCloud" class="w-16 h-16 mx-auto mb-2"/>
+          <img src="./src/assets/images/mdi_soundcloud.svg" alt="SoundCloud" class="w-16 h-16 mx-auto mb-2"/>
         </a>
         <p class="text-gray-600 text-sm" data-i18n="portfolio.soundcloud">Écoutez mes compositions et sound designs sur SoundCloud.</p>
       </div>
       <div class="text-center">
         <a href="https://cix-fasound.itch.io/" target="_blank">
-          <img src="./assets/images/fa7-brands_itch-io.svg" alt="Itch.io" class="w-16 h-16 mx-auto mb-2"/>
+          <img src="./src/assets/images/fa7-brands_itch-io.svg" alt="Itch.io" class="w-16 h-16 mx-auto mb-2"/>
         </a>
         <p class="text-gray-600 text-sm" data-i18n="portfolio.itchio">Explorez mes jeux et projets sur Itch.io.</p>
       </div>
@@ -219,7 +219,7 @@
 
 </body>
 <script>
-    fetch("./components/header.html")
+    fetch("./src/components/header.html")
       .then((res) => res.text())
       .then((data) => {
         document.getElementById("header").innerHTML = data;
@@ -261,7 +261,7 @@
         });
       });
 
-    fetch("./components/footer.html")
+    fetch("./src/components/footer.html")
       .then((res) => res.text())
       .then((data) => {
         const footer = document.createElement("div");

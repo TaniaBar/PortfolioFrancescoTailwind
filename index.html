@@ -9,8 +9,8 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@1,300&family=Space+Grotesk:wght@600&display=swap"
       rel="stylesheet"
     />
-    <link href="./assets/css/output.css" rel="stylesheet" />
-    <script src="./assets/js/i18n.js"></script>
+    <link href="./src/assets/css/output.css" rel="stylesheet" />
+    <script src="./src/assets/js/i18n.js"></script>
   </head>
   <body>
     <div id="header"></div>
@@ -38,7 +38,7 @@
           class="max-w-sm mx-auto aspect-[4/3] overflow-hidden mb-6 shadow-lg relative"
         >
           <img
-            src="./assets/images/photo-pres.jpeg"
+            src="./src/assets/images/photo-pres.jpeg"
             alt="Photo de présentation"
             data-i18n="presentation.photo_alt"
             class="w-full h-full object-cover rounded-lg"
@@ -68,7 +68,7 @@
             class="bg-white rounded-lg shadow p-6 flex flex-col items-center text-center hover:scale-105 hover:shadow-xl transition-all duration-300"
           >
             <img
-              src="./assets/images/noto-v1_headphone.svg"
+              src="./src/assets/images/noto-v1_headphone.svg"
               alt="Sound Design"
               class="w-12 h-12 mb-4"
             />
@@ -91,7 +91,7 @@
             class="bg-white rounded-lg shadow p-6 flex flex-col items-center text-center hover:scale-105 hover:shadow-xl transition-all duration-300"
           >
             <img
-              src="./assets/images/mdi_mixer-settings.svg"
+              src="./src/assets/images/mdi_mixer-settings.svg"
               alt="Mixage"
               class="w-12 h-12 mb-4"
             />
@@ -115,7 +115,7 @@
             class="bg-white rounded-lg shadow p-6 flex flex-col items-center text-center hover:scale-105 hover:shadow-xl transition-all duration-300"
           >
             <img
-              src="./assets/images/noto_microphone.svg"
+              src="./src/assets/images/noto_microphone.svg"
               alt="Prise de son"
               class="w-12 h-12 mb-4"
             />
@@ -139,7 +139,7 @@
             class="bg-white rounded-lg shadow p-6 flex flex-col items-center text-center hover:scale-105 hover:shadow-xl transition-all duration-300"
           >
             <img
-              src="./assets/images/icon-park_music.svg"
+              src="./src/assets/images/icon-park_music.svg"
               alt="Composition Musicale"
               class="w-12 h-12 mb-4"
             />
@@ -173,7 +173,7 @@
     </div>
 
     <script>
-      fetch("./components/header.html")
+      fetch("./src/components/header.html")
         .then((res) => res.text())
         .then((data) => {
           document.getElementById("header").innerHTML = data;
@@ -215,7 +215,7 @@
           });
         });
 
-      fetch("./components/footer.html")
+      fetch("./src/components/footer.html")
         .then((res) => res.text())
         .then((data) => {
           const footer = document.createElement("div");

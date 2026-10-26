@@ -9,8 +9,8 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@1,300&family=Space+Grotesk:wght@600&display=swap"
       rel="stylesheet"
     />
-    <link href="./assets/css/output.css" rel="stylesheet" />
-    <script src="./assets/js/i18n.js"></script>
+    <link href="./src/assets/css/output.css" rel="stylesheet" />
+    <script src="./src/assets/js/i18n.js"></script>
   </head>
   <body class="about-page">
     <div id="header"></div>
@@ -28,7 +28,7 @@
       <div class="flex flex-col md:flex-row items-center">
         <div class="md:w-5/12 mb-8 md:mb-0">
           <img
-            src="./assets/images/profile2.jpeg"
+            src="./src/assets/images/profile2.jpeg"
             alt="Profile Image"
             class="aspect-[4/3] w-full object-cover rounded-lg shadow-lg"
           />
@@ -52,7 +52,7 @@
       <div class="flex flex-col md:flex-row-reverse items-center">
         <div class="md:w-5/12 mb-8 md:mb-0">
           <img
-            src="./assets/images/work.jpeg"
+            src="./src/assets/images/work.jpeg"
             alt="Work Image"
             class="aspect-[4/3] w-full object-cover rounded-lg shadow-lg"
           />
@@ -77,7 +77,7 @@
       <div class="flex flex-col md:flex-row items-center">
         <div class="md:w-5/12 mb-8 md:mb-0">
           <img
-            src="./assets/images/skills.jpeg"
+            src="./src/assets/images/skills.jpeg"
             alt="Skills Image"
             class="aspect-[4/3] w-full object-cover rounded-lg shadow-lg"
           />
@@ -112,7 +112,7 @@
     </div>
   </body>
   <script>
-    fetch("./components/header.html")
+    fetch("./src/components/header.html")
       .then((res) => res.text())
       .then((data) => {
         document.getElementById("header").innerHTML = data;
@@ -154,7 +154,7 @@
         });
       });
 
-    fetch("./components/footer.html")
+    fetch("./src/components/footer.html")
       .then((res) => res.text())
       .then((data) => {
         const footer = document.createElement("div");
